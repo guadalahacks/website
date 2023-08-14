@@ -1,0 +1,15 @@
+.logo-text{
+    color: #E4007C;
+}
+
+.mlh-badge{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 100px;
+    z-index: 1000;
+}
+
+.blank-reserve{
+    width: 120px;
+}
