@@ -1,0 +1,23 @@
+.about-container {
+    background-color: #01070b;
+    padding: 50px 10%;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    color: #E4007C;
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 2rem;
+    color: #ff2ca0;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #d9abb4;
+  }
