@@ -1,0 +1,12 @@
+.event-map-container {
+    width: 50%;
+    height: 400px;
+  }
+
+  .map-header {
+    font-size: 2rem;
+    color: #E4007C;
+    margin: 20px 0;
+    text-align: center;
+  }
+  

@@ -21,11 +21,11 @@ const NavigationBar: React.FC = () => {
 
         {/* Navigation buttons and MLH 2023 Season banner */}
         <div className="flex items-center space-x-6">
-          <a href="#" className="text-lg hover:text-gray-400">Home</a>
-          <a href="#about" className="text-lg hover:text-gray-400">About</a>
-          <a href="#" className="text-lg hover:text-gray-400">Contact</a>
-          <span className="h-10 bg-transparent blank-reserve"></span> 
-          <img src="./mlh-badge.svg" alt="MLH 2023 Hackathon Season" className="h-40 mlh-badge" />
+          <a href="#" className="text-lg hover:text-gray-400">Inicio</a>
+          <a href="#contact" className="text-lg hover:text-gray-400">Contacto</a>
+          <a href="#about" className="text-lg hover:text-gray-400">FAQ</a>
+          {/*<span className="h-10 bg-transparent blank-reserve"></span> 
+          <img src="./mlh-badge.svg" alt="MLH 2023 Hackathon Season" className="h-40 mlh-badge" />*/}
         </div>
       </div>
     </nav>

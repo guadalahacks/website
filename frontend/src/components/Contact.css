@@ -1,0 +1,34 @@
+.contact-us-container {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+.contact-anchor  {
+    color: #E4007C; 
+    text-decoration: none;
+  }
+
+.contact-anchor:hover {
+    text-decoration: underline;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    color: #E4007C;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact-sub{
+    font-size: 1.5rem;
+    color: #E4007C;
+    margin-bottom: 6px;
+    margin-top: 25px
+  }
