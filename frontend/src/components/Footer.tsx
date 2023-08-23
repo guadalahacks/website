@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             {/* Important Links */}
             <div className="footer-column">
             <h3 className="footer-title">Importante (próximamente)</h3>
-            <a href="#" className="footer-link-disabled">Código de conducta</a>
+            <a href="/CodeOfConduct" className="footer-link">Código de conducta</a>
             <a href="#" className="footer-link-disabled">Forma parte del Staff</a>
             <a href="#" className="footer-link-disabled">Conviértete en mentor</a>
             <a href="#" className="footer-link-disabled">Apoyanos siendo Sponsor</a>
