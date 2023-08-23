@@ -29,3 +29,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.map-contact-container {
+  display: flex;
+}

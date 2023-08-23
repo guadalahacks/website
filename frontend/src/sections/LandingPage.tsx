@@ -18,19 +18,19 @@ const LandingPage: React.FC = () => {
       </div>
       
       {/* Countdown */}
-      <div className={'text-6xl font-bold text-white'+' '+valeraLight.className}>
+      <div className={'countdown-text text-white'+' '+valeraLight.className}>
         Quedan <Countdown />
       </div>
 
       {/* Location */}
       <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          Hackathon Estudiantil @ Tecnológico de Monterrey, Campus Guadalajara
+          Hackathón Estudiantil @ Tecnológico de Monterrey, Campus Guadalajara
       </div>
 
       {/* Date */}
 
       <div className={'text-3xl font-semibold text-white'+' '+valeraLight.className}>
-          3-5 de Noviembre, 2023
+          3-5 de Noviembre del 2023
       </div>
 
       {/* Register button */}
