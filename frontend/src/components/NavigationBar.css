@@ -13,3 +13,16 @@
 .blank-reserve-nav{
     width: 120px;
 }
+
+.nav-logo-anchor{ /* Don't apply any anchor styles nor spacing to the logo */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-logo{
+    margin: 0 !important;
+    display: inline;
+    padding: 0;
+}

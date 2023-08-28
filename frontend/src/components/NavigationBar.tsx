@@ -12,18 +12,21 @@ const NavigationBar: React.FC = () => {
     <nav className="bg-gray-800 text-white p-2">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo section */}
-        <div className="flex items-center">
-          <img src="/logo.png" alt="logo" className="h-20" />
-          <div className='ml-6 text-4xl font-semibold'>
-            <span className={'logo-text-nav'+' '+valeraClass}>guadala<b>hacks</b></span>
+        <a href="/" className='nav-logo-anchor'>
+          <div className="flex items-center">
+            <img src="/logo.png" alt="logo" className="h-20 nav-logo" />
+            <div className='ml-6 text-4xl font-semibold'>
+              <span className={'logo-text-nav'+' '+valeraClass}>guadala<b>hacks</b></span>
             </div>
-        </div>
+          </div>
+        </a>
 
         {/* Navigation buttons and MLH 2023 Season banner */}
         <div className="flex items-center space-x-6">
-          <a href="#" className="text-lg hover:text-gray-400">Inicio</a>
-          <a href="#contact" className="text-lg hover:text-gray-400">Contacto</a>
-          <a href="#about" className="text-lg hover:text-gray-400">FAQ</a>
+          <a href="/" className="text-lg hover:text-gray-400">Inicio</a>
+          <a href="/#contact" className="text-lg hover:text-gray-400">Contacto</a>
+          <a href="/#partners" className="text-lg hover:text-gray-400">Partners</a>
+          <a href="/#about" className="text-lg hover:text-gray-400">FAQ</a>
           {/*<span className="h-10 bg-transparent blank-reserve"></span> 
           <img src="./mlh-badge.svg" alt="MLH 2023 Hackathon Season" className="h-40 mlh-badge" />*/}
         </div>

@@ -1,3 +1,5 @@
+$accent: #e4007c;
+
 .contact-us-container {
     width: 50%;
     height: 400px;
@@ -8,10 +10,12 @@
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background-color: #1f2937;
+    color: #fff;
   }
 
 .contact-anchor  {
-    color: #E4007C; 
+    color: $accent; 
     text-decoration: none;
   }
 
@@ -21,14 +25,14 @@
 
   .contact-title {
     font-size: 2rem;
-    color: #E4007C;
+    color: $accent;
     margin-bottom: 20px;
     text-align: center;
   }
 
   .contact-sub{
     font-size: 1.5rem;
-    color: #E4007C;
+    color: $accent;
     margin-bottom: 6px;
     margin-top: 25px
   }

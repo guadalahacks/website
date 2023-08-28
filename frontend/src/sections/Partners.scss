@@ -1,0 +1,32 @@
+/* spacer style */
+
+.partners-container {
+  margin: 0;
+  padding: 50px 10%;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background-color: #e4007c;
+}
+
+.partners-title {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.partners-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.partner-logo {
+  width: 40%;
+  margin: 20px;
+}
