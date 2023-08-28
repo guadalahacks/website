@@ -7,6 +7,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import EventMap from '@/components/EventMap';
 import Contact from '@/components/Contact';
+import App from '@/layouts/App';
 config.autoAddCss = false
 
 // Dynamically import LandingPage to be rendered only on the client
@@ -14,16 +15,16 @@ const LandingPage = dynamic(() => import('../sections/LandingPage'));
 
 const Page: React.FC = () => {
   return (
-    <div>
-      <NavigationBar />
+    <App>
+      
       <LandingPage />
       <div className="map-contact-container" id='contact'>
         <EventMap />
         <Contact />
       </div>
       <AboutSection />
-      <Footer /> 
-    </div>
+      
+    </App>
   );
 };
 

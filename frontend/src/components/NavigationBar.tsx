@@ -15,7 +15,7 @@ const NavigationBar: React.FC = () => {
         <div className="flex items-center">
           <img src="/logo.png" alt="logo" className="h-20" />
           <div className='ml-6 text-4xl font-semibold'>
-            <span className={'logo-text'+' '+valeraClass}>guadala<b>hacks</b></span>
+            <span className={'logo-text-nav'+' '+valeraClass}>guadala<b>hacks</b></span>
             </div>
         </div>
 
