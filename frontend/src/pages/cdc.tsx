@@ -1,5 +1,5 @@
 import React from 'react';
-import './CodeOfConduct.css';
+import './cdc.css';
 import App from '@/layouts/App';
 
 
