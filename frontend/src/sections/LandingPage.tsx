@@ -24,13 +24,13 @@ const LandingPage: React.FC = () => {
 
       {/* Location */}
       <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          Hackathón Estudiantil @ Tecnológico de Monterrey, Campus Guadalajara
+          Hackatón estudiantil @ Tecnológico de Monterrey, Campus Guadalajara
       </div>
 
       {/* Date */}
 
       <div className={'text-3xl font-semibold text-white'+' '+valeraLight.className}>
-          3-5 de Noviembre del 2023
+          3-5 de noviembre de 2023
       </div>
 
       {/* Register button */}

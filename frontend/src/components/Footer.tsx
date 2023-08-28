@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             {/* Important Links */}
             <div className="footer-column">
             <h3 className="footer-title">Importante (próximamente)</h3>
-            <a href="/CodeOfConduct" className="footer-link">Código de conducta</a>
+            <a href="/cdc" className="footer-link">Código de conducta</a>
             <a href="#" className="footer-link-disabled">Forma parte del Staff</a>
             <a href="#" className="footer-link-disabled">Conviértete en mentor</a>
             <a href="#" className="footer-link-disabled">Apoyanos siendo Sponsor</a>
@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
         
         </div>
         <div className={"footer-copyright "+valeraLight.className}>
-            Created with <FontAwesomeIcon icon={faHeart} className='heart'/>
+            Creado con <FontAwesomeIcon icon={faHeart} className='heart'/>
             <br />
-            <span>&copy; 2023 guadalahacks. All rights reserved.</span>
+            <span>&copy; 2023 guadalahacks. Todos los derechos reservados.</span>
         </div>
     </div>
   );

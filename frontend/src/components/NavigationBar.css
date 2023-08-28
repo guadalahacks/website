@@ -1,15 +1,15 @@
-.logo-text{
+.logo-text-nav{
     color: #E4007C;
 }
 
-.mlh-badge{
+/* .mlh-badge{
     position: absolute;
     top: 0;
     right: 50px;
     width: 100px;
     z-index: 1000;
-}
+} */
 
-.blank-reserve{
+.blank-reserve-nav{
     width: 120px;
 }
