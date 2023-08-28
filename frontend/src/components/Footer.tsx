@@ -6,6 +6,7 @@ import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Varela_Round } from 'next/font/google'
 import { faHeart } from '@fortawesome/free-solid-svg-icons/faHeart';
+import Link from 'next/link';
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 const Footer: React.FC = () => {
@@ -29,7 +30,7 @@ const Footer: React.FC = () => {
             {/* Important Links */}
             <div className="footer-column">
             <h3 className="footer-title">Importante (próximamente)</h3>
-            <a href="/cdc" className="footer-link">Código de conducta</a>
+            <Link href="/cdc" className="footer-link">Código de conducta</Link>
             <a href="#" className="footer-link-disabled">Forma parte del Staff</a>
             <a href="#" className="footer-link-disabled">Conviértete en mentor</a>
             <a href="#" className="footer-link-disabled">Apoyanos siendo Sponsor</a>
