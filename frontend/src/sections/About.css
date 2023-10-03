@@ -22,3 +22,25 @@
     line-height: 1.5;
     color: #d9abb4;
   }
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 280px) {
+
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    .about-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .about-content {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}

@@ -33,3 +33,11 @@ body {
 .map-contact-container {
   display: flex;
 }
+
+@media screen and (max-width: 768px) {
+  .map-contact-container {
+    flex-direction: column-reverse;
+    /*invert directioon*/
+
+  }
+}

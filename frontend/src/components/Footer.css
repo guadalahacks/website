@@ -7,6 +7,7 @@
   .footer-column {
     flex: 1;
     padding: 0 20px;
+    width: 100%;
   }
   
   .footer-title {
@@ -64,4 +65,35 @@
 .heart:hover {
     color: #E4007C;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-title {
+        margin-bottom: 10px;
+    }
+
+    .footer-link {
+        margin-bottom: 5px;
+    }
+
+    .footer-container{
+        padding-top: 30px;
+    }
+
+    .footer-logo {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

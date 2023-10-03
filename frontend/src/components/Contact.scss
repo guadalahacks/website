@@ -36,3 +36,9 @@ $accent: #e4007c;
     margin-bottom: 6px;
     margin-top: 25px
   }
+
+  @media screen and (max-width: 768px) {
+    .contact-us-container {
+      width: 100%;
+    }
+  }

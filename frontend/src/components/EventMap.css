@@ -1,12 +1,32 @@
 .event-map-container {
-    width: 50%;
-    height: 400px;
+  width: 50%;
+  height: 400px;
+  position: relative; /* Make this a positioning context for the overlay */
+}
+
+.map-header {
+  font-size: 2rem;
+  color: #E4007C;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.mobile-overlay {
+  display: none; /* Initially hidden */
+  position: absolute; /* Position it over the iframe */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; /* Ensure it's above the iframe */
+}
+
+@media screen and (max-width: 768px) {
+  .event-map-container {
+      width: 100%;
   }
 
-  .map-header {
-    font-size: 2rem;
-    color: #E4007C;
-    margin: 20px 0;
-    text-align: center;
+  .mobile-overlay {
+      display: block; /* Show the overlay on mobile */
   }
-  
+}

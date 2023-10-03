@@ -1,6 +1,7 @@
 .gradient-container {
     background: linear-gradient(to right, #E4007C, #FF8B74);
-    height: calc(100vh - 96px);;
+    height: calc(100vh - 96px);
+    min-height: 490px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,13 +37,15 @@
 .countdown-text{
     color: white;
     font-size: 2rem;
-
+    text-align: center;
 }
 
 .info-text{
     color: white;
     font-size: 1.5rem;
     margin-top: 50px;
+    text-align: center;
+    max-width: 90%;
 }
 
 .register-button-container{
@@ -106,7 +109,7 @@
 .placeholder-square.five {
     width: 24px;
     height: 24px;
-    bottom: 30%;
+    bottom: 23%;
     right: 10%;
     transform: rotate(60deg);
 }
@@ -145,3 +148,96 @@
     animation: move 3s ease-in-out 2s infinite;
 }
 
+/* Responsive styles for mobile */
+@media screen and (max-width: 768px) {
+    .logo-container {
+        flex-direction: column; /* Stack logo and text vertically */
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-right: 0; /* Remove margin to the right of the logo */
+        margin-bottom: 10px; /* Add some space below the logo */
+    }
+
+    .logo-text-landing {
+        font-size: 3rem; /* Reduce font size for mobile */
+    }
+
+    .countdown-text{
+        font-size: 1.5em;
+    }
+
+    .info-text{
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    
+    .register-button-container{
+        margin-top: 20px;
+    }
+
+    .placeholder-square.three{
+        bottom: 5%;
+        left: 10%;
+    }
+
+    .placeholder-square.four {
+        top: 5%;
+        right: 5%;
+    }
+
+    .placeholder-square.five {
+        bottom: 10%;
+        right: 10%;
+    }
+}
+
+/* Galaxy Fold */
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 280px) {
+    .logo-container {
+        flex-direction: column; /* Stack logo and text vertically */
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-right: 0; /* Remove margin to the right of the logo */
+        margin-bottom: 10px; /* Add some space below the logo */
+        width: 50%;
+
+    }
+
+    .logo-text-landing {
+        font-size: 2rem; /* Reduce font size for mobile */
+    }
+
+    .countdown-text{
+        font-size: 1.2em;
+    }
+
+    .info-text{
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    
+    .register-button-container{
+        margin-top: 20px;
+    }
+
+    .placeholder-square.three{
+        bottom: 5%;
+        left: 10%;
+    }
+
+    .placeholder-square.four {
+        top: 5%;
+        right: 5%;
+    }
+
+    .placeholder-square.five {
+        bottom: 3%;
+        right: 10%;
+    }
+}
