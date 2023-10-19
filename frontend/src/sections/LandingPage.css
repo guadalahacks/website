@@ -58,14 +58,25 @@
 }	
 
 .register-button{
-    background-color: rgb(160, 157, 157);
-    color: #494949;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    cursor:not-allowed;
+    transition: 0.3s;
+}
+
+
+.register-button:hover{
+    background-color: rgb(212, 212, 212);
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
     transition: 0.3s;
 }
   

@@ -30,12 +30,12 @@ const LandingPage: React.FC = () => {
       {/* Date */}
 
       <div className={'text-3xl font-semibold text-white'+' '+valeraLight.className}>
-          3-5 de noviembre de 2023
+          4-5 de noviembre de 2023
       </div>
 
       {/* Register button */}
       <div className="register-button-container">
-        <a href="#" className="register-button">Próximamente</a>
+        <a href="http://l.guadalahacks.com/register" className="register-button">Registrate</a>
       </div>
       
       

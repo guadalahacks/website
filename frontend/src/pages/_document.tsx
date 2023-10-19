@@ -11,7 +11,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/icon.ico" />
+        <meta name="description" content="El hackathon estudiantil del occidente de México" />
+        <meta name="keywords" content="hackathon, guadalajara, guadalahacks, hack, coding, programming, programación, hackatón, hackaton, hackathon, student, computacion, estudiante" />
       </Head>
       <body>
         <Main />
