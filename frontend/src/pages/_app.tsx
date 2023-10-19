@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="shortcut icon" href="/icon.ico" />
         <title>GuadalaHacks</title>
-        <meta name="description" content="El hackathon estudiantil del occidente de México" />
+        <meta name="description" content="El hackatón estudiantil del occidente de México" />
         <meta name="keywords" content="hackathon, guadalajara, guadalahacks, hack, coding, programming, programación, hackatón, hackaton, hackathon, student, computacion, estudiante" />
         <meta name="og:image" content="/banner.png" />
       </Head>
