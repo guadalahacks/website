@@ -36,7 +36,7 @@ const LandingPage: React.FC = () => {
 
       {/* Register button */}
       <div className="register-button-container">
-        <Link href="/registro" className="register-button">Registrate</Link>
+        <Link href="/registro" className="register-button">Regístrate</Link>
       </div>
       
       
