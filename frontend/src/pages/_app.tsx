@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>GuadalaHacks</title>
         <meta name="description" content="El hackathon estudiantil del occidente de México" />
         <meta name="keywords" content="hackathon, guadalajara, guadalahacks, hack, coding, programming, programación, hackatón, hackaton, hackathon, student, computacion, estudiante" />
+        <meta name="og:image" content="/banner.png" />
       </Head>
       <Component {...pageProps} />
     </>
