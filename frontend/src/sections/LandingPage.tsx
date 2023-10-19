@@ -2,6 +2,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import './LandingPage.css'; // Import the CSS
 import { Varela_Round } from 'next/font/google'
+import Link from 'next/link';
 
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
@@ -35,7 +36,7 @@ const LandingPage: React.FC = () => {
 
       {/* Register button */}
       <div className="register-button-container">
-        <a href="http://l.guadalahacks.com/register" className="register-button">Registrate</a>
+        <Link href="/registro" className="register-button">Registrate</Link>
       </div>
       
       
