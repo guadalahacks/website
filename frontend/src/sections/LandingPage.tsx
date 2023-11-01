@@ -20,7 +20,8 @@ const LandingPage: React.FC = () => {
       
       {/* Countdown */}
       <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        Quedan <Countdown />
+        {/* Quedan <Countdown /> */}
+        Principios de 2024
       </div>
 
       {/* Location */}
@@ -31,7 +32,7 @@ const LandingPage: React.FC = () => {
       {/* Date */}
 
       <div className={'text-3xl font-semibold text-white'+' '+valeraLight.className}>
-          4-5 de noviembre de 2023
+          Principios de 2024
       </div>
 
       {/* Register button */}
