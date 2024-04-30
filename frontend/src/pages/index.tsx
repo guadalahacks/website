@@ -7,6 +7,7 @@ import EventMap from '@/components/EventMap';
 import Contact from '@/components/Contact';
 import App from '@/layouts/App';
 import { Partners } from '@/sections/Partners';
+import { Schedule } from '@/sections/Schedule';
 config.autoAddCss = false
 
 // Dynamically import LandingPage to be rendered only on the client
@@ -17,6 +18,7 @@ const Page: React.FC = () => {
     <App>
       
       <LandingPage />
+      <Schedule />
       <div className="map-contact-container" id='contact'>
         <EventMap />
         

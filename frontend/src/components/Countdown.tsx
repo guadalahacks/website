@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Countdown: React.FC = () => {
-  const targetDate = new Date('2023-11-04T10:00:00'); // Modify this date as needed
+  const targetDate = new Date('2024-05-18T09:00:00-06:00'); // Modify this date as needed
 
   const [timeRemaining, setTimeRemaining] = useState<number>(targetDate.getTime() - new Date().getTime());
   const [isClient, setIsClient] = useState(false)

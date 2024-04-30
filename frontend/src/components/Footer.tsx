@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         <div className={"footer-copyright "+valeraLight.className}>
             Creado con <FontAwesomeIcon icon={faHeart} className='heart'/>
             <br />
-            <span>&copy; 2023 guadalahacks. Todos los derechos reservados.</span>
+            <span>&copy; 2024 guadalahacks. Todos los derechos reservados.</span>
         </div>
     </div>
   );

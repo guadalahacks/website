@@ -4,19 +4,19 @@ const nextConfig = {
         return [
             {
                 source: '/registro',
-                destination: 'https://forms.gle/yMHsQxuhGWurALVL9',
+                destination: 'https://forms.gle/kbcJrqut2H97w8fx6',
                 permanent: false,
                 basePath: false
             },
             {
                 source: '/register',
-                destination: 'https://forms.gle/yMHsQxuhGWurALVL9',
+                destination: 'https://forms.gle/kbcJrqut2H97w8fx6',
                 permanent: false,
                 basePath: false
             },
             {
                 source: '/login',
-                destination: 'https://forms.gle/yMHsQxuhGWurALVL9',
+                destination: 'https://forms.gle/kbcJrqut2H97w8fx6',
                 permanent: false,
                 basePath: false
             },
