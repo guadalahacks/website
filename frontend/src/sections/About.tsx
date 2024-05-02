@@ -17,7 +17,6 @@ const AboutSection: React.FC = () => {
       </p>
       <h3 className="about-subtitle">¿Cuánto cuesta?</h3>
       <p className="about-content">
-        <s>sinko peso</s><br/>
         La participación no tiene costo alguno. Habrá comida gratis durante todo el evento, así como premios para los mejores proyectos. ¡No te lo puedes perder!
       </p>
       <h3 className="about-subtitle">¿Qué necesito llevar?</h3>
