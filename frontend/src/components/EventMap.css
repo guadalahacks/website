@@ -1,6 +1,6 @@
 .event-map-container {
   width: 50%;
-  height: 400px;
+  height: 450px;
   position: relative; /* Make this a positioning context for the overlay */
 }
 
