@@ -17,7 +17,7 @@ export const Partners: React.FC = () => {
             <img src="./eic.png" alt="Escuela de Ingeniería y Ciencias del Tecnológico de Monterrey" className="partner-logo" />
             <img src="./wtm_2.png" alt="Women Techmakers" className="partner-logo"  />
             <img src="./gce.png" alt="GitHub Campus Experts" className="partner-logo" />
-            
+            <img src="./blend.png" alt="Blend" className="partner-logo" />
         </div>
         </div>
     );
