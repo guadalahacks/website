@@ -13,8 +13,8 @@ const Contact: React.FC = () => {
             <h2 className='contact-sub'>Dirección del evento</h2>
             <p>Tecnológico de Monterrey, Campus Guadalajara</p>
             <p>Av. Gral. Ramón Corona 2514<br />Colonia Nuevo México, 45201<br />Zapopan, Jal., México</p>
-            <p>Inauguración: Auditorio TecSalud</p>
-            <p>Hacking: Habitat de negocios, 3er y 4to piso</p>
+            <p>Inauguración: Habitat de negocios, 3er piso</p>
+            <p>Hacking: Habitat de negocios, 3er piso</p>
             <div className="maps-links">
                 <a href="https://maps.app.goo.gl/pZdnoWDcySrFbRao6" target="_blank" rel="noopener noreferrer">
                     <img src="googlemaps.png" alt="Google Maps" />

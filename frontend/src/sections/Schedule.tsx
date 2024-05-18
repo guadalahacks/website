@@ -25,7 +25,7 @@ export const Schedule: React.FC = () => {
                 </div>
                 <div className="schedule-row">
                     <div className="schedule-cell">18 de mayo</div>
-                    <div className="schedule-cell">10:00 AM</div>
+                    <div className="schedule-cell">10:30 AM</div>
                     <div className="schedule-cell">Inauguración</div>
                     <div className="schedule-cell">Auditorio TecSalud</div>
                 </div>
