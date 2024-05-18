@@ -1,6 +1,6 @@
 .gradient-container {
     background: linear-gradient(to right, #E4007C, #FF8B74);
-    height: calc(100vh - 96px);
+    height: calc(100vh);
     min-height: 490px;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,8 @@
 .logo-container{
     position: relative;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
     /*center content*/
     display: flex;
     flex-direction: row;
@@ -36,7 +37,7 @@
 
 .countdown-text{
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -46,6 +47,25 @@
     margin-top: 50px;
     text-align: center;
     max-width: 90%;
+    padding-left: 70px;
+    margin-right: 50px;
+}
+
+.tracks{
+    text-align: left;
+
+    align-items: left;
+}
+
+.tracklist{
+    display: list-item;
+}
+/* Second element with info-text class */
+.info-text:nth-child(2){
+    border: #fff solid 5px;
+    height: auto;
+    padding: 10px;
+    padding-bottom: -30px;
 }
 
 .register-button-container{
@@ -105,7 +125,7 @@
     width: 18px;
     height: 18px;
     bottom: 18%;
-    left: 15%;
+    left: 5%;
     transform: rotate(120deg);
 }
 
@@ -120,8 +140,8 @@
 .placeholder-square.five {
     width: 24px;
     height: 24px;
-    bottom: 23%;
-    right: 10%;
+    bottom: 17%;
+    right: 7%;
     transform: rotate(60deg);
 }
 
@@ -190,7 +210,7 @@
 
     .placeholder-square.three{
         bottom: 5%;
-        left: 10%;
+        left: 5%;
     }
 
     .placeholder-square.four {
@@ -239,7 +259,7 @@
 
     .placeholder-square.three{
         bottom: 5%;
-        left: 10%;
+        left: 5%;
     }
 
     .placeholder-square.four {

@@ -20,24 +20,50 @@ const LandingPage: React.FC = () => {
       
       {/* Countdown */}
       <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        Quedan <Countdown />
+        Hacking finaliza en:
+        <br/>
+        <Countdown />
       </div>
 
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       {/* Location */}
-      <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          Hackatón estudiantil @ Tecnológico de Monterrey, Campus Guadalajara
+        <div className={'text-3xl font-semibold text-white info-text tracks'+' '+valeraLight.className}>
+          <strong>Tracks:</strong> <br />
+          <ul className='tracklist'>
+            <li>• Inteligencia Artifical para el Beneficio Social</li>
+            <li>&nbsp; &nbsp; &nbsp; - Premio a mejor </li>
+            <li>• Emprendimiento Social con Tecnología</li>
+            <li>&nbsp; &nbsp; &nbsp; - Premio a mejor</li>
+            <li>• Best Overall</li>
+            <li>&nbsp; &nbsp; &nbsp; - Premio a los 3 mejores equipos</li>
+          </ul>
+        </div>
+
+        {/* Date */}
+
+        <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
+          A continuación: 
+          <br />
+          <br />
+          Comida 
+          <br/>
+          15:00 - 16:00 horas
+          <br/>
+          <br/>
+          
+          Taller de GitHub Copilot
+          <br/>  
+          16:30 - 17:30 horas
+          <br/>
+        </div>
       </div>
+      
+      {/* Login button */}
 
-      {/* Date */}
-
-      <div className={'text-3xl font-semibold text-white'+' '+valeraLight.className}>
-          18 y 19 de mayo. 2024
-      </div>
-
-      {/* Register button */}
+      {/* Register button
       <div className="register-button-container">
         <Link href="/registro" className="register-button">Regístrate</Link>
-      </div>
+      </div> */}
       
       
 
