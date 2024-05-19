@@ -45,15 +45,15 @@ const LandingPage: React.FC = () => {
           A continuación: 
           <br />
           <br />
-          Taller de GitHub Copilot
+          Desayuno
           <br/>
-          17:45 - 18:45 horas
+          8:30 - 9:30 horas
           <br/>
           <br/>
           
-          Cena
+          Jueceo
           <br/>  
-          20:30 - 21:30 horas
+          11:00 - 12:00 horas
           <br/>
         </div>
       </div>
