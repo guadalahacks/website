@@ -20,9 +20,8 @@ const LandingPage: React.FC = () => {
       
       {/* Countdown */}
       <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        Hacking finaliza en:
-        <br/>
-        <Countdown />
+        Hands up!<br/>
+        ¡Hacking ha finalizado! 🎉
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -45,15 +44,15 @@ const LandingPage: React.FC = () => {
           A continuación: 
           <br />
           <br />
-          Desayuno
+          Jueceo
           <br/>
-          8:30 - 9:30 horas
+          11:00 - 12:00 horas
           <br/>
           <br/>
           
-          Jueceo
+          Ceremonia de Clausura
           <br/>  
-          11:00 - 12:00 horas
+          12:00 - 13:00 horas
           <br/>
         </div>
       </div>
