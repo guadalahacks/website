@@ -67,8 +67,19 @@ const nextConfig = {
                 destination: 'https://chat.whatsapp.com/ImVRvrLbgg3CaObjRWhiaQ',
                 permanent: false,
                 basePath: false
+            },
+            {
+                source: '/devpost',
+                destination: 'https://guadalahacks.devpost.com/',
+                permanent: false,
+                basePath: false
+            },
+            {
+                source: '/projects',
+                destination: 'https://guadalahacks.devpost.com/project-gallery',
+                permanent: false,
+                basePath: false
             }
-            // wpp, registro
         ]
     }
 }

@@ -1,6 +1,6 @@
 .gradient-container {
     background: linear-gradient(to right, #E4007C, #FF8B74);
-    height: calc(100vh);
+    height: calc(100vh - 96px);
     min-height: 490px;
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     margin-top: 50px;
     text-align: center;
     max-width: 90%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .info-text:nth-child(1){
