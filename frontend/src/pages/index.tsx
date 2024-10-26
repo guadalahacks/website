@@ -20,7 +20,7 @@ const Page: React.FC = () => {
       
       <LandingPage />
       <PhotoGallery />
-      <Schedule />
+      {/* <Schedule /> */}
       <div className="map-contact-container" id='contact'>
         <EventMap />
         
