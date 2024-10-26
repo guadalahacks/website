@@ -1,0 +1,11 @@
+.gallery-container {
+    background-color: #ff8974;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.single-picture {
+    max-width: 600px;
+    width: 90%;
+}
