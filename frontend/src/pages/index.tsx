@@ -18,7 +18,7 @@ const Page: React.FC = () => {
     <App>
       
       <LandingPage />
-      <Schedule />
+      {/* <Schedule /> */}
       <div className="map-contact-container" id='contact'>
         <EventMap />
         
