@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'GuadalaHacks',
+    title: 'guadalahacks',
     description: 'El hackathon estudiantil más grande del occidente de México',
   }
 
