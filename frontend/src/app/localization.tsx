@@ -1,7 +1,14 @@
-import { Localization } from '@/app/locale';
+import { StringLocalization, ElementLocalization } from '@/app/locale';
 
+export const stringLocalization: StringLocalization = {
+    // example: {
+    //     es: "ejemplo",
+    //     en: "example"
+    // }
 
-export const localization: Localization = {
+}
+
+export const elementLocalization: ElementLocalization = {
     // example: {
     //     es: <>ejemplo</>,
     //     en: <>example</>
