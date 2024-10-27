@@ -52,5 +52,20 @@ export const localization: Localization = {
     },
     faq_more: {
         es: <>Más información próximamente.</>
+    },
+    landing_title: {
+        es: <>guadala<b>hacks</b></>
+    },
+    landing_seeYouSoon: {
+        es: <>¡Nos vemos en 2025!</>
+    },
+    landing_thankYou: {
+        es: <>Muchas gracias por acomapañarnos.</>
+    },
+    landing_teamsComingSoon: {
+        es: <>Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.</>
+    },
+    landing_seeProjects: {
+        es: <>Conoce los proyectos</>
     }
 }
