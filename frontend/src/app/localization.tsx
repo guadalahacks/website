@@ -6,6 +6,21 @@ export const stringLocalization: StringLocalization = {
     //     en: "example"
     // }
 
+    partners_github_wording: {
+        es: "Aprende sobre GitHub Copilot"
+    },
+    partners_emprendimiento_alt: {
+        es: "Emprendimiento TEC"
+    },
+    partners_eic_alt: {
+        es: "Escuela de Ingeniería y Ciencias del Tecnológico de Monterrey"
+    },
+    partners_gce_wording: {
+        es: "GitHub Student Developer Pack"
+    },
+    partners_blend_wording: {
+        es: "Explora las vacantes"
+    }
 }
 
 export const elementLocalization: ElementLocalization = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Partners.scss';
-import { getLocalizedElement } from '@/app/locale';
+import { getLocalizedElement, getLocalizedString } from '@/app/locale';
 import { Varela_Round } from 'next/font/google';
 import { PartnerLogo } from '../components/PartnerLogo'; // Import the new component
 
@@ -14,13 +14,13 @@ export const Partners: React.FC = () => {
       </h1>
       <div className="partners-logos">
         <PartnerLogo src="./tec.png" alt="Tecnológico de Monterrey" />
-        <PartnerLogo src="./github.png" alt="GitHub" link="https://github.com/features/copilot" wording='Aprende sobre GitHub Copilot' />
+        <PartnerLogo src="./github.png" alt="GitHub" link="https://github.com/features/copilot" wording={getLocalizedString("partners_github_wording")} />
         <PartnerLogo src="./life.png" alt="LiFE TEC" />
-        <PartnerLogo src="./emprendimiento_tec.png" alt="Emprendimiento TEC" />
-        <PartnerLogo src="./eic.png" alt="Escuela de Ingeniería y Ciencias del Tecnológico de Monterrey" />
+        <PartnerLogo src="./emprendimiento_tec.png" alt={getLocalizedString("partners_emprendimiento_alt")} />
+        <PartnerLogo src="./eic.png" alt={getLocalizedString("partners_eic_alt")} />
         <PartnerLogo src="./wtm_2.png" alt="Women Techmakers" />
-        <PartnerLogo src="./gce.png" alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording="GitHub Student Developer Pack"/>
-        <PartnerLogo src="./blend.png" alt="Blend" link="https://blend.com/company/careers/emerging-talent/" wording='Explora las vacantes'/>
+        <PartnerLogo src="./gce.png" alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording={getLocalizedString("partners_gce_wording")}/>
+        <PartnerLogo src="./blend.png" alt="Blend" link="https://blend.com/company/careers/emerging-talent/" wording={getLocalizedString("partners_blend_wording")}/>
       </div>
     </div>
   );
