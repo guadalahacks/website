@@ -23,6 +23,9 @@ export const stringLocalization: StringLocalization = {
     },
     gallery_photo_alt: {
         es: "Colección de fotografías de Guadalahacks 2024, personas programando y recibiendo premios"
+    },
+    partnerLogo_defaultWording: {
+        es: "Enlace"
     }
 }
 

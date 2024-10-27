@@ -1,3 +1,5 @@
+import { getLocalizedString } from "@/app/locale";
+
 interface PartnerLogoProps {
     src: string;
     alt: string;
@@ -11,7 +13,7 @@ export const PartnerLogo: React.FC<PartnerLogoProps> = ({ src, alt, link, wordin
         <img src={src} alt={alt} className="partner-logo" />
         {link && (
           <a href={link} target="_blank" rel="noopener noreferrer" className="partner-link">
-            {wording || "Enlace"}
+            {wording || getLocalizedString("partnerLogo_defaultWording")}
           </a>
         )}
       </div>
