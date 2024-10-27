@@ -95,5 +95,56 @@ export const elementLocalization: ElementLocalization = {
     },
     partners_title: {
         es: <>Partners</>
+    },
+    schedule_title: {
+        es: <>Agenda</>
+    },
+    schedule_table_date: {
+        es: <>Fecha</>
+    },
+    schedule_table_date_0518: {
+        es: <>18 de mayo</>
+    },
+    schedule_table_date_0519: {
+        es: <>19 de mayo</>
+    },
+    schedule_table_time: {
+        es: <>Hora</>
+    },
+    schedule_table_time_tbd: {
+        es: <>Por anunciar</>
+    },
+    schedule_table_event: {
+        es: <>Evento</>
+    },
+    schedule_table_event_registration: {
+        es: <>Registro</>
+    },
+    schedule_table_event_inauguration: {
+        es: <>Inauguración</>
+    },
+    schedule_table_event_lunch: {
+        es: <>Comida</>
+    },
+    schedule_table_event_dinner: {
+        es: <>Cena</>
+    },
+    schedule_table_event_breakfast: {
+        es: <>Desayuno</>
+    },
+    schedule_table_event_deadline: {
+        es: <>Cierre de envíos</>
+    },
+    schedule_table_event_closure: {
+        es: <>Cierre</>
+    },
+    schedule_table_location: {
+        es: <>Lugar</>
+    },
+    schedule_table_location_tecSalud: {
+        es: <>Auditorio TecSalud</>
+    },
+    schedule_table_location_negocios: {
+        es: <>Hábitat de Negocios</>
     }
 }
