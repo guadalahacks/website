@@ -146,5 +146,14 @@ export const elementLocalization: ElementLocalization = {
     },
     schedule_table_location_negocios: {
         es: <>Hábitat de Negocios</>
+    },
+    contact_title: {
+        es: <>Contáctanos</>
+    },
+    contact_contactUs: {
+        es: <>Escríbenos a <a href="mailto:hola@guadalahacks.com" className='contact-anchor'>hola@guadalahacks.com</a></>
+    },
+    contact_addressHeader: {
+        es: <>Dirección del evento</>
     }
 }
