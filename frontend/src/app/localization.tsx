@@ -20,6 +20,9 @@ export const stringLocalization: StringLocalization = {
     },
     partners_blend_wording: {
         es: "Explora las vacantes"
+    },
+    gallery_photo_alt: {
+        es: "Colección de fotografías de Guadalahacks 2024, personas programando y recibiendo premios"
     }
 }
 
