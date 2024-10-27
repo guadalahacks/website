@@ -1,5 +1,6 @@
 import React from 'react';
 import './Partners.scss';
+import getLocalizedString from '@/app/locale';
 import { Varela_Round } from 'next/font/google';
 import { PartnerLogo } from '../components/PartnerLogo'; // Import the new component
 
@@ -8,7 +9,9 @@ const valeraLight = Varela_Round({ weight: "400", subsets: ["latin"] });
 export const Partners: React.FC = () => {
   return (
     <div className={"partners-container " + valeraLight.className} id='partners'>
-      <h1 className="partners-title">Partners</h1>
+      <h1 className="partners-title">
+        {getLocalizedString("partners_title")}
+      </h1>
       <div className="partners-logos">
         <PartnerLogo src="./tec.png" alt="Tecnológico de Monterrey" />
         <PartnerLogo src="./github.png" alt="GitHub" link="https://github.com/features/copilot" wording='Aprende sobre GitHub Copilot' />

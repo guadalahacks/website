@@ -67,5 +67,8 @@ export const localization: Localization = {
     },
     landing_seeProjects: {
         es: <>Conoce los proyectos</>
+    },
+    partners_title: {
+        es: <>Partners</>
     }
 }
