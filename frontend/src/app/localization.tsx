@@ -43,7 +43,7 @@ export const elementLocalization: ElementLocalization = {
     },
     faq_q1_answer: {
         es: <>
-            Únete a otrxs 100 estudiantes de todo México para un fin de semana de construcción, aprendizaje y diversión.
+            Únete a cientos de estudiantes de todo México para un fin de semana de construcción, aprendizaje y diversión.
             Convive y conecta con la comunidad <i>tech</i> de México, desarrolla tu proyecto y pasa un fin de semana inolvidable.
             Conoce Guadalajara y el Tecnológico de Monterrey, universidad líder en México y Latinoamérica.
         </>
