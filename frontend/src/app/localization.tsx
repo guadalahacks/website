@@ -43,19 +43,31 @@ export const elementLocalization: ElementLocalization = {
         es: <>¿Qué es guadala<b>hacks</b>?</>
     },
     faq_q1_answer: {
-        es: <>Únete a otrxs 100 estudiantes de todo México para un fin de semana de construcción, aprendizaje y diversión. Convive y conecta con la comunidad <i>tech</i> de México, desarrolla tu proyecto y pasa un fin de semana inolvidable. Conoce Guadalajara y el Tecnológico de Monterrey, universidad líder en México y Latinoamérica.</>
+        es: <>
+            Únete a otrxs 100 estudiantes de todo México para un fin de semana de construcción, aprendizaje y diversión.
+            Convive y conecta con la comunidad <i>tech</i> de México, desarrolla tu proyecto y pasa un fin de semana inolvidable.
+            Conoce Guadalajara y el Tecnológico de Monterrey, universidad líder en México y Latinoamérica.
+        </>
     },
     faq_q2: {
         es: <>¿Quiénes son bienvenidxs?</>
     },
     faq_q2_answer: {
-        es: <>Puedes formar parte del evento si eres estudiante o exatec, con menos de un año de haber egresado, de cualquier campus del Tecnológico de Monterrey, no importa tu carrera ni nivel de experiencia o de estudios. Somos un evento inclusivo y diverso, y fomentamos un espacio seguro para todxs.</>
+        es: <>
+            Puedes formar parte del evento si eres estudiante o exatec, con menos de un año de haber egresado,
+            de cualquier campus del Tecnológico de Monterrey, no importa tu carrera ni nivel de experiencia o de estudios.
+            Somos un evento inclusivo y diverso, y fomentamos un espacio seguro para todxs.
+        </>
     },
     faq_q3: {
         es: <>¿Cuánto cuesta?</>
     },
     faq_q3_answer: {
-        es: <>La participación no tiene costo alguno. Habrá comida gratis durante todo el evento, así como premios para los mejores proyectos. ¡No te lo puedes perder!</>
+        es: <>
+            La participación no tiene costo alguno.
+            Habrá comida gratis durante todo el evento, así como premios para los mejores proyectos.
+            ¡No te lo puedes perder!
+        </>
     },
     faq_q4: {
         es: <>¿Qué necesito llevar?</>
@@ -67,7 +79,12 @@ export const elementLocalization: ElementLocalization = {
         es: <>¿Cuántas personas deben conformar un equipo?</>
     },
     faq_q5_answer: {
-        es: <>Los equipos deben estar conformados por un máximo de 4 personas. Se recomiendan equipos de 2 a 4 integrantes, pero está permitido participar individualmente. Todxs lxs integrantes deben registrarse individualmente. Registrarán su equipo durante el evento.</>
+        es: <>
+            Los equipos deben estar conformados por un máximo de 4 personas.
+            Se recomiendan equipos de 2 a 4 integrantes, pero está permitido participar individualmente.
+            Todxs lxs integrantes deben registrarse individualmente.
+            Registrarán su equipo durante el evento.
+        </>
     },
     faq_q6: {
         es: <>¿Qué clase de proyecto debería desarrollar?</>
