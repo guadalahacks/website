@@ -1,6 +1,6 @@
 import React from 'react';
 import './Partners.scss';
-import getLocalizedString from '@/app/locale';
+import { getLocalizedElement } from '@/app/locale';
 import { Varela_Round } from 'next/font/google';
 import { PartnerLogo } from '../components/PartnerLogo'; // Import the new component
 
@@ -10,7 +10,7 @@ export const Partners: React.FC = () => {
   return (
     <div className={"partners-container " + valeraLight.className} id='partners'>
       <h1 className="partners-title">
-        {getLocalizedString("partners_title")}
+        {getLocalizedElement("partners_title")}
       </h1>
       <div className="partners-logos">
         <PartnerLogo src="./tec.png" alt="Tecnológico de Monterrey" />
