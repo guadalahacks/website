@@ -155,5 +155,32 @@ export const elementLocalization: ElementLocalization = {
     },
     contact_addressHeader: {
         es: <>Dirección del evento</>
+    },
+    footer_contactUs: {
+        es: <>Conecta</>
+    },
+    footer_contactUs_email: {
+        es: <>Correo electrónico</>
+    },
+    footer_resources: {
+        es: <>Recursos</>
+    },
+    footer_resources_cc: {
+        es: <>Código de conducta</>
+    },
+    footer_resources_joinAsStaff: {
+        es: <>Forma parte del staff</>
+    },
+    footer_resources_joinAsMentor: {
+        es: <>Conviértete en mentor</>
+    },
+    footer_resources_joinAsSponsor: {
+        es: <>Apóyanos como patrocinador</>
+    },
+    footer_footnote_madeWith: {
+        es: <>Creado con </>
+    },
+    footer_footnote_copyright: {
+        es: <>&copy; 2024 guadalahacks. Todos los derechos reservados.</>
     }
 }
