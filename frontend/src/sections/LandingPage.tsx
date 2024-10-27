@@ -1,6 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import './LandingPage.css'; // Import the CSS
+import { getLocalizedElement } from '@/app/locale';
 import { Varela_Round } from 'next/font/google'
 import Link from 'next/link';
 
@@ -15,24 +16,26 @@ const LandingPage: React.FC = () => {
 
       <div className='logo-container'>
         <img src="./logo-outline.png" alt="logo" className="logo" />
-        <span className={'logo-text-landing'+' '+valeraLight.className}>guadala<b>hacks</b></span>
+        <span className={'logo-text-landing'+' '+valeraLight.className}>
+          {getLocalizedElement("landing_title")}
+        </span>
       </div>
       
       {/* Countdown */}
       <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        ¡Nos vemos en 2025!
+        {getLocalizedElement("landing_seeYouSoon")}
       </div>
 
       {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}> */}
       {/* Location */}
         <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          Muchas gracias por acomapañarnos.
+          {getLocalizedElement("landing_thankYou")}
         </div>
 
         {/* Date */}
 
         <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.
+          {getLocalizedElement("landing_teamsComingSoon")}
         </div>
       {/* </div> */}
       
@@ -40,7 +43,9 @@ const LandingPage: React.FC = () => {
 
       {/* Register button */}
       <div className="register-button-container">
-        <Link href="/projects" className="register-button">Conoce los proyectos</Link>
+        <Link href="/projects" className="register-button">
+          {getLocalizedElement("landing_seeProjects")}
+        </Link>
       </div>
       
       
