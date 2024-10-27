@@ -24,7 +24,7 @@ export const stringLocalization: StringLocalization = {
     },
     partners_blend_wording: {
         es: "Explora las vacantes",
-        en: "Explore positions"
+        en: "Explore open positions"
     },
     gallery_photo_alt: {
         es: "Colección de fotografías de Guadalahacks 2024, personas programando y recibiendo premios",
@@ -156,7 +156,7 @@ export const elementLocalization: ElementLocalization = {
     },
     landing_seeProjects: {
         es: <>Conoce los proyectos</>,
-        en: <>Take a look at the projects</>
+        en: <>See all the projects</>
     },
     partners_title: {
         es: <>Partners</>,
@@ -268,7 +268,7 @@ export const elementLocalization: ElementLocalization = {
     },
     footer_resources_joinAsSponsor: {
         es: <>Apóyanos como patrocinador</>,
-        en: <>Support us as a sponser</>
+        en: <>Support us as a sponsor</>
     },
     footer_footnote_madeWith: {
         es: <>Creado con </>,
