@@ -210,7 +210,7 @@ export const elementLocalization: ElementLocalization = {
         es: <>Inicio</>
     },
     navbar_contact: {
-        es: <>Contact</>
+        es: <>Contacto</>
     },
     navbar_partners: {
         es: <>Partners</>
