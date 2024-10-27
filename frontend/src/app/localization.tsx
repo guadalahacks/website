@@ -182,5 +182,20 @@ export const elementLocalization: ElementLocalization = {
     },
     footer_footnote_copyright: {
         es: <>&copy; 2024 guadalahacks. Todos los derechos reservados.</>
+    },
+    navbar_title: {
+        es: <>guadala<b>hacks</b></>
+    },
+    navbar_home: {
+        es: <>Inicio</>
+    },
+    navbar_contact: {
+        es: <>Contact</>
+    },
+    navbar_partners: {
+        es: <>Partners</>
+    },
+    navbar_faq: {
+        es: <>FAQ</>
     }
 }
