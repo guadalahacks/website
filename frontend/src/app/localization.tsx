@@ -35,7 +35,6 @@ export const elementLocalization: ElementLocalization = {
     //     en: <>example</>
     // }
 
-    // About / FAQ
     faq_title: {
         es: <>FAQ</>
     },
