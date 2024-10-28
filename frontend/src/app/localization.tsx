@@ -367,6 +367,71 @@ export const elementLocalization: ElementLocalization = {
                 Apreciamos tu colaboración en hacer de este guadala<b>hacks</b> un lugar amigable y
                 acogedor para todxs lxs participantes.
             </p>
+        </>,
+        en: <>
+            <h1>The guadala<b>hacks</b> Code of Conduct</h1>
+            <h2>Our commitments</h2>
+            <p>
+                The goal of guadala<b>hacks</b> is to foster innovation and the creation of
+                tech solutions in a space where we can build, contribute and learn.
+                We're committed to provide a safe, welcoming environment for everyone, regardless
+                of gender, sexual orientation, disability, ethnical background, religion, or any
+                other diversity category. This code of conduct outlines the behavior guidelines
+                for all attendands and staff members, as well as the consequences of breaking it.
+            </p>
+            <h2>Expected behavior</h2>
+            <ul>
+                <li>Participate as your authentic self and in an active manner.</li>
+                <li>Be considerate and respectful in your words and actions.</li>
+                <li>Avoid any comment or conduct that can be discriminatory, offensive or violent.</li>
+                <li>Be respectful of others' boundaries and personal space.</li>
+                <li>
+                    Be mindful of what your fellow participants are saying and do your best to
+                    foster a safe and positive experience for everyone.
+                </li>
+                <li>Follow the rules and directions of the venue and the event.</li>
+            </ul>
+            <h2>Unacceptable behavior</h2>
+            <ul>
+                <li>Harassment, the use of offensive language and sexualized imagery.</li>
+                <li>Intimidation and stalking.</li>
+                <li>Photographs or video recording without others' explicit consent.</li>
+                <li>Continuous interruption of talks and other events.</li>
+                <li>Inappropriate or undersired phyiscal contact.</li>
+                <li>Online or in person intimidation or bullying.</li>
+                <li>
+                    Any other behavior that would be considered inappropriate in a professional environment.
+                </li>
+            </ul>
+            <h2>Consequences of unnacceptable behavior</h2>
+            <p>
+                The organizers of guadala<b>hacks</b> have the right and responsibility to sanction
+                or expel any participant temporarily or permanently for any behavior they consider
+                inappropriate, threatening, offensive or harmful.
+            </p>
+            <h2>Reporting unacceptable behavior</h2>
+            <p>
+                If you're witness or victim of any unacceptable behavior, or you have any other concert,
+                please reach out to a member of the guadala<b>hacks</b> staff as soon as possible
+                or write us an email at <a href="mailto:incidents@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidents@guadalahacks.com
+                </a>.
+            </p>
+            <h2>Take care of the facilities and resources</h2>
+            <p>
+                We remind participants to respect the facilities and their surroundings,
+                as well as any equipment and resources provided as part of the hackathon.
+            </p>
+            <h2>Contact</h2>
+            <p>
+                To report any issues related to the code of conduct, please reach out to a member of the guadala<b>hacks</b> staff as soon as possible
+                or write us an email at <a href="mailto:incidents@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidents@guadalahacks.com
+                </a>.
+            </p>
+            <p>
+                We appreciate your effort to make guadala<b>hacks</b> a friendly and welcoming space for everyone.
+            </p>
         </>
     }
 }
