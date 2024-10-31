@@ -381,7 +381,7 @@ export const elementLocalization: ElementLocalization = {
             </p>
             <h2>Expected behavior</h2>
             <ul>
-                <li>Participate as your authentic self and in an active manner.</li>
+                <li>Participate with authenticity and in an active manner.</li>
                 <li>Be considerate and respectful in your words and actions.</li>
                 <li>Avoid any comment or conduct that can be discriminatory, offensive or violent.</li>
                 <li>Be respectful of others' boundaries and personal space.</li>
