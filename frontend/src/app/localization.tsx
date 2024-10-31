@@ -396,7 +396,7 @@ export const elementLocalization: ElementLocalization = {
                 <li>Harassment, the use of offensive language and sexualized imagery.</li>
                 <li>Intimidation and stalking.</li>
                 <li>Photographs or video recording without others' explicit consent.</li>
-                <li>Continuous interruption of talks and other events.</li>
+                <li>Disruption of talks and other events.</li>
                 <li>Inappropriate or undersired phyiscal contact.</li>
                 <li>Online or in person intimidation or bullying.</li>
                 <li>
