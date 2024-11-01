@@ -297,5 +297,141 @@ export const elementLocalization: ElementLocalization = {
     navbar_faq: {
         es: <>FAQ</>,
         en: <>FAQ</>
+    },
+    cdc: {
+        es: <>
+            <h1>Código de conducta de guadala<b>hacks</b></h1>
+            <h2>Nuestro compromiso</h2>
+            <p>
+                El objetivo de guadala<b>hacks</b> es fomentar la innovación y
+                la creación de soluciones tecnológicas en un espacio de construcción,
+                colaboración y aprendizaje.
+                Estamos comprometidxs a proporcionar un ambiente amigable, seguro
+                y acogedor para todxs, para todo género, orientación sexual,
+                discapacidad, etnia, religión, o cualquier otra categoría de diversidad.
+                Este código de conducta especifica los lineamientos de comportamiento
+                de los participantes, así como las consecuencias de un comportamiento inaceptable.
+            </p>
+            <h2>Comportamiento esperado</h2>
+            <ul>
+                <li>Participar de manera auténtica y activa.</li>
+                <li>Ejercer consideración y respeto en tus palabras y acciones.</li>
+                <li>Evitar cualquier comentario o conducta discriminatoria, ofensiva o violenta.</li>
+                <li>Respetar los límites personales y el espacio personal de otrxs.</li>
+                <li>
+                    Estar atento a lo que dicen tus compañeros participantes y hacer tu mejor
+                    esfuerzo para fomentar una experiencia segura y positiva para todos.
+                </li>
+                <li>Respetar las reglas y directrices del lugar y del evento.</li>
+            </ul>
+            <h2>Comportamiento inaceptable</h2>
+            <ul>
+                <li>El acoso, el uso de lenguaje ofensivo o imágenes sexualizadas.</li>
+                <li>Intimidación, stalking o seguimiento.</li>
+                <li>Fotografías o grabaciones sin el consentimiento explícito de los individuos.</li>
+                <li>Interrupción sostenida de charlas u otros eventos.</li>
+                <li>Contacto físico inapropiado o indeseado.</li>
+                <li>Intimidación o bullying, ya sea en línea o en persona.</li>
+                <li>
+                    Cualquier otro tipo de comportamiento considerado inapropiado en un entorno profesional.
+                </li>
+            </ul>
+            <h2>Consecuencias de un comportamiento inaceptable</h2>
+            <p>
+                Lxs organizadores del guadala<b>hacks</b> tienen el derecho y la responsabilidad
+                de sancionar o expulsar temporal o permanentemente a cualquier participante por
+                cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o dañino.
+            </p>
+            <h2>Si eres testigo o eres víctima de un comportamiento inaceptable</h2>
+            <p>
+                Si eres víctima o testigo de un comportamiento inaceptable, o tienes alguna otra inquietud,
+                por favor comunícate con un miembro del equipo de guadala<b>hacks</b> lo antes posible
+                o escríbenos a <a href="mailto:incidentes@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidentes@guadalahacks.com
+                </a>.
+            </p>
+            <h2>Respeto al entorno</h2>
+            <p>
+                Recordamos a los participantes que deben respetar las instalaciones y su entorno,
+                así como cualquier equipo y recurso proporcionado como parte del hackatón.
+            </p>
+            <h2>Contacto</h2>
+            <p>
+                Para reportar problemas relacionados con el código de conducta, comunícate con
+                un miembro del equipo de guadala<b>hacks</b> o escríbenos a
+                <a href="mailto:incidentes@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidentes@guadalahacks.com
+                </a>.
+            </p>
+            <p>
+                Apreciamos tu colaboración en hacer de este guadala<b>hacks</b> un lugar amigable y
+                acogedor para todxs lxs participantes.
+            </p>
+        </>,
+        en: <>
+            <h1>The guadala<b>hacks</b> Code of Conduct</h1>
+            <h2>Our commitments</h2>
+            <p>
+                The goal of guadala<b>hacks</b> is to foster innovation and the creation of
+                tech solutions in a space where we can build, contribute and learn.
+                We're committed to provide a safe, welcoming environment for everyone, regardless
+                of gender, sexual orientation, disability, ethnical background, religion, or any
+                other diversity category. This code of conduct outlines the behavior guidelines
+                for all attendands and staff members, as well as the consequences of breaking it.
+            </p>
+            <h2>Expected behavior</h2>
+            <ul>
+                <li>Participate with authenticity and in an active manner.</li>
+                <li>Be considerate and respectful in your words and actions.</li>
+                <li>Avoid any comment or conduct that can be discriminatory, offensive or violent.</li>
+                <li>Be respectful of others' boundaries and personal space.</li>
+                <li>
+                    Be mindful of what your fellow participants are saying and do your best to
+                    foster a safe and positive experience for everyone.
+                </li>
+                <li>Follow the rules and directions of the venue and the event.</li>
+            </ul>
+            <h2>Unacceptable behavior</h2>
+            <ul>
+                <li>Harassment, the use of offensive language and sexualized imagery.</li>
+                <li>Intimidation and stalking.</li>
+                <li>Photographs or video recording without others' explicit consent.</li>
+                <li>Disruption of talks and other events.</li>
+                <li>Inappropriate or undersired phyiscal contact.</li>
+                <li>Online or in person intimidation or bullying.</li>
+                <li>
+                    Any other behavior that would be considered inappropriate in a professional environment.
+                </li>
+            </ul>
+            <h2>Consequences of unnacceptable behavior</h2>
+            <p>
+                The organizers of guadala<b>hacks</b> have the right and responsibility to sanction
+                or expel any participant temporarily or permanently for any behavior they consider
+                inappropriate, threatening, offensive or harmful.
+            </p>
+            <h2>Reporting unacceptable behavior</h2>
+            <p>
+                If you're witness or victim of any unacceptable behavior, or you have any other concert,
+                please reach out to a member of the guadala<b>hacks</b> staff as soon as possible
+                or write us an email at <a href="mailto:incidents@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidents@guadalahacks.com
+                </a>.
+            </p>
+            <h2>Take care of the facilities and resources</h2>
+            <p>
+                We remind participants to respect the facilities and their surroundings,
+                as well as any equipment and resources provided as part of the hackathon.
+            </p>
+            <h2>Contact</h2>
+            <p>
+                To report any issues related to the code of conduct, please reach out to a member of the guadala<b>hacks</b> staff as soon as possible
+                or write us an email at <a href="mailto:incidents@guadalahacks.com" style={{color: "#E4007C"}}>
+                    incidents@guadalahacks.com
+                </a>.
+            </p>
+            <p>
+                We appreciate your effort to make guadala<b>hacks</b> a friendly and welcoming space for everyone.
+            </p>
+        </>
     }
 }
