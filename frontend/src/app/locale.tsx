@@ -1,57 +1,81 @@
-import { stringLocalization, elementLocalization } from "@/app/localization"
+import { localization } from "@/app/localization"
 import { ReactElement } from 'react'
 
 const defaultLanguage: string = "es"
+const elementTypeName: string = "element"
+const stringTypeName: string = "string"
 
 interface LocalizedString {
     [key: string]: string
 }
-export interface StringLocalization {
-    [key: string]: LocalizedString
-}
 interface LocalizedElement {
     [key: string]: ReactElement
 }
-export interface ElementLocalization {
-    [key: string]: LocalizedElement
+interface LocalizedObjectPair {
+    string?: LocalizedString,
+    element?: LocalizedElement
+}
+export interface Localization {
+    [key: string]: LocalizedObjectPair
+}
+interface StringOrElement {
+    string?: string,
+    element?: ReactElement
+}
+
+const getLocalizedStringOrElement = (type: string, identifier: string, language: string): StringOrElement => {
+    // Return empty if identifier not found
+    if (!(identifier in localization)) {
+        console.error(`Localization identifier "${identifier}" not found`)
+        return {}
+    }
+
+    const localizedObjectPair = localization[identifier]
+
+    // Return empty if type not found
+    if (!(type in localizedObjectPair)) {
+        console.error(`Localized ${type} "${identifier}" not found`)
+        return {}
+    }
+
+    const localizedObject = (
+        type == stringTypeName ?
+            localizedObjectPair.string :
+            localizedObjectPair.element
+    ) ?? {} // line ƒor TS to stop whining, previous block ensures either exists
+
+    if (!(language in localizedObject)) {
+        // Use default language if language not found
+        console.warn(`Localized ${type} "${identifier}" in language "${language}" not found, fetching default language "${defaultLanguage}"`)
+        language = defaultLanguage
+    }
+    if (!(language in localizedObject)) {
+        // Return empty if default language not found
+        console.error(`Localized ${type} "${identifier}" in default language "${language}" not found`)
+        return {}
+    }
+
+    // Return in interface with both types for type safety
+    return {
+        string: (
+            type == stringTypeName ?
+                (localizedObjectPair.string ?? {})[language] :
+                ""
+        ),
+        element: (
+            type == elementTypeName ?
+                (localizedObjectPair.element ?? {})[language] :
+                <></>
+        )
+    }
 }
 
 export const getLocalizedString = (identifier: string, language: string = defaultLanguage): string => {
-    // NOTE: MUST KEEP IN SYNC WITH getLocalizedElement
-    // ANY CHANGE MADE HERE MUST BE MADE THERE FOR CONSISTENCY
-
-    // Return empty string if identifier not found
-    if (!(identifier in stringLocalization)) {
-        console.error(`Localized string identifier "${identifier}" not found`)
-        return ""
-    }
-
-    const localizedString = stringLocalization[identifier]
-
-    // Return localized if found, else default language if found, else empty
-    if (language in localizedString) return localizedString[language]
-    console.warn(`Localized string "${identifier}" in language "${language}" not found, using default language "${defaultLanguage}"`)
-    if (defaultLanguage in localizedString) return localizedString[defaultLanguage]
-    console.error(`Localized string "${identifier}" in default language "${defaultLanguage}" not found`)
-    return ""
+    let object = getLocalizedStringOrElement(stringTypeName, identifier, language)
+    return object.string ?? ""
 }
 
 export const getLocalizedElement = (identifier: string, language: string = defaultLanguage): ReactElement => {
-    // NOTE: MUST KEEP IN SYNC WITH getLocalizedString
-    // ANY CHANGE MADE HERE MUST BE MADE THERE FOR CONSISTENCY
-
-    // Return empty element if identifier not found
-    if (!(identifier in elementLocalization)) {
-        console.error(`Localized element identifier "${identifier}" not found`)
-        return <></>
-    }
-
-    const localizedString = elementLocalization[identifier]
-
-    // Return localized if found, else default language if found, else empty
-    if (language in localizedString) return localizedString[language]
-    console.warn(`Localized element "${identifier}" in language "${language}" not found, using default language "${defaultLanguage}"`)
-    if (defaultLanguage in localizedString) return localizedString[defaultLanguage]
-    console.error(`Localized element "${identifier}" in default language "${defaultLanguage}" not found`)
-    return <></>
+    let object = getLocalizedStringOrElement(elementTypeName, identifier, language)
+    return object.element ?? <></>
 }
