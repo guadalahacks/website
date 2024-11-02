@@ -1,4 +1,4 @@
-import { StringLocalization, ElementLocalization, Localization } from '@/app/locale';
+import { Localization } from '@/app/locale';
 
 export const localization: Localization = {
     // example_string: {
