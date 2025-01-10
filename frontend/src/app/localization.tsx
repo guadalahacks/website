@@ -275,8 +275,8 @@ export const elementLocalization: ElementLocalization = {
         en: <>Made with </>
     },
     footer_footnote_copyright: {
-        es: <>&copy; 2024 guadalahacks. Todos los derechos reservados.</>,
-        en: <>&copy; 2024 guadalahacks. All rights reserved.</>
+        es: <>&copy; 2025 guadalahacks. Todos los derechos reservados.</>,
+        en: <>&copy; 2025 guadalahacks. All rights reserved.</>
     },
     navbar_title: {
         es: <>guadala<b>hacks</b></>,
