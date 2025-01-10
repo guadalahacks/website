@@ -1,4 +1,5 @@
 import { StringLocalization, ElementLocalization } from '@/app/locale';
+import { count } from 'console';
 
 export const stringLocalization: StringLocalization = {
     // example: {
@@ -433,5 +434,9 @@ export const elementLocalization: ElementLocalization = {
                 We appreciate your effort to make guadala<b>hacks</b> a friendly and welcoming space for everyone.
             </p>
         </>
+    },
+    countdown: {
+        es: <>Tiempo Restante:</>,
+        en: <>Time Remaining:</>
     }
 }
