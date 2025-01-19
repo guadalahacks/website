@@ -1,8 +1,10 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+import { getLocalizedElement } from '@/app/locale';
+import './Countdown.css';
 
 const Countdown: React.FC = () => {
-  const targetDate = new Date('2024-05-19T10::00-06:00'); // Modify this date as needed
+  const targetDate = new Date('2025-05-17T10:00-06:00'); // Modify this date as needed
 
   const [timeRemaining, setTimeRemaining] = useState<number>(targetDate.getTime() - new Date().getTime());
   const [isClient, setIsClient] = useState(false)
@@ -24,9 +26,14 @@ const Countdown: React.FC = () => {
   const timerString = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
   return (
-    <>
-      {isClient ? timerString : '' }
-    </>
+    <div className="countdown-container">
+      <div className="countdown-timer">
+        {isClient ? timerString : ''}
+      </div>
+      <div className="countdown-label">
+        {getLocalizedElement("landing_countdown")}
+      </div>
+    </div>
   );
 };
 
