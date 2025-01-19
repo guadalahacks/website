@@ -1,4 +1,5 @@
 import { StringLocalization, ElementLocalization } from '@/app/locale';
+import { ReactElement } from 'react';
 
 export const stringLocalization: StringLocalization = {
     // example: {
@@ -33,6 +34,10 @@ export const stringLocalization: StringLocalization = {
     partnerLogo_defaultWording: {
         es: "Enlace",
         en: "Link"
+    },
+    footer_footnote_copyright: {
+        es: "Derechos de autor © 2023",
+        en: "Copyright © 2023"
     }
 }
 
@@ -272,7 +277,7 @@ export const elementLocalization: ElementLocalization = {
     },
     footer_footnote_madeWith: {
         es: <>Creado con </>,
-        en: <>Made with </>
+        en: <>Made with </>,
     },
     footer_footnote_copyright: {
         es: <>&copy; 2025 guadalahacks. Todos los derechos reservados.</>,
@@ -435,3 +440,29 @@ export const elementLocalization: ElementLocalization = {
         </>
     }
 }
+
+export const getLocalizedString = (identifier: string, language: string): string => {
+    if (!(identifier in stringLocalization)) {
+        console.error(`Localized string identifier "${identifier}" not found`);
+        return "";
+    }
+
+    const localizedString = stringLocalization[identifier];
+
+    if (language in localizedString) return localizedString[language];
+    console.warn(`Localized string "${identifier}" in language "${language}" not found, using default language "es"`);
+    return localizedString["es"];
+};
+
+export const getLocalizedElement = (identifier: string, language: string): ReactElement => {
+    if (!(identifier in elementLocalization)) {
+        console.error(`Localized element identifier "${identifier}" not found`);
+        return <></>;
+    }
+
+    const localizedElement = elementLocalization[identifier];
+
+    if (language in localizedElement) return localizedElement[language];
+    console.warn(`Localized element "${identifier}" in language "${language}" not found, using default language "es"`);
+    return localizedElement["es"];
+};

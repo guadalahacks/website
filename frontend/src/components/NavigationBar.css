@@ -100,6 +100,46 @@
     pointer-events: auto;  /* Now it can capture clicks */
 }
 
+.language-toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language-toggle {
+  width: 50px;
+  height: 25px;
+  background-color: #ff8974;
+  border-radius: 25px;
+  position: relative;
+  transition: background-color 0.3s;
+  margin: 0 10px;
+}
+
+.language-toggle.active {
+  background-color: #E4007C; /* Change this to your active color */
+}
+
+.toggle-thumb {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.3s;
+}
+
+.language-toggle.active .toggle-thumb {
+  transform: translateX(25px);
+}
+
+.toggle-label {
+  font-size: 0.875rem; /* Adjust the font size as needed */
+  color: white; /* Change this to your desired text color */
+}
+
 @media screen and (max-width: 768px) {
     .nav-logo-anchor {
         padding: 0 10px;
@@ -115,5 +155,9 @@
 
     .desktop-logo-text {
         display: none;
+    }
+
+    .language-toggle {
+        font-size: 0.875;
     }
 }

@@ -1,17 +1,16 @@
 import React from 'react';
-import './Contact.scss'
+import './Contact.scss';
 import { getLocalizedElement } from '@/app/locale';
-
-
-
-
+import { useLanguage } from '@/context/LanguageContext'; // Nueva línea
 
 const Contact: React.FC = () => {
+    const { language } = useLanguage(); // Nueva línea
+
     return (
         <div className="contact-us-container">
-            <h2 className='contact-title'>{getLocalizedElement("contact_title")}</h2>
-            <p>{getLocalizedElement("contact_contactUs")}</p>
-            <h2 className='contact-sub'>{getLocalizedElement("contact_addressHeader")}</h2>
+            <h2 className='contact-title'>{getLocalizedElement("contact_title", language)}</h2> {/* Modificado */}
+            <p>{getLocalizedElement("contact_contactUs", language)}</p> {/* Modificado */}
+            <h2 className='contact-sub'>{getLocalizedElement("contact_addressHeader", language)}</h2> {/* Modificado */}
             <p>Tecnológico de Monterrey, Campus Guadalajara</p>
             <p>Av. Gral. Ramón Corona 2514<br />Colonia Nuevo México, 45201<br />Zapopan, Jal., México</p>
             <div className="maps-links">
