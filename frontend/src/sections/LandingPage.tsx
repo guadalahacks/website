@@ -1,7 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import './LandingPage.css'; // Import the CSS
-import { getLocalizedElement } from '@/app/locale';
+import { getLocalizedElement, languageState } from '@/app/locale';
 import { Varela_Round } from 'next/font/google'
 import Link from 'next/link';
 
@@ -11,13 +11,14 @@ const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 const Countdown = dynamic(() => import('../components/Countdown'));
 
 const LandingPage: React.FC = () => {
+  const [language, setLanguage] = languageState.useState();
   return (
     <div className="gradient-container">
 
       <div className='logo-container'>
         <img src="./logo-outline.png" alt="logo" className="logo" />
         <span className={'logo-text-landing'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_title")}
+          {getLocalizedElement("landing_title", language)}
         </span>
       </div>
       
@@ -25,20 +26,20 @@ const LandingPage: React.FC = () => {
 
       {/* Countdown */}
       {/* <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        {getLocalizedElement("landing_seeYouSoon")}
+        {getLocalizedElement("landing_seeYouSoon", language)}
       </div> */}
       <Countdown />
 
       {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}> */}
       {/* Location */}
         {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_thankYou")}
+          {getLocalizedElement("landing_thankYou", language)}
         </div> */}
 
         {/* Date */}
 
         {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_teamsComingSoon")}
+          {getLocalizedElement("landing_teamsComingSoon", language)}
         </div> */}
       {/* </div> */}
       
@@ -47,7 +48,7 @@ const LandingPage: React.FC = () => {
       {/* Register button */}
       <div className="register-button-container">
         <Link href="/projects" className="register-button">
-          {getLocalizedElement("landing_seeProjects")}
+          {getLocalizedElement("landing_seeProjects", language)}
         </Link>
       </div>
       
