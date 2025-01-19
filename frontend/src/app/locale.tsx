@@ -19,7 +19,7 @@ export interface ElementLocalization {
     [key: string]: LocalizedElement
 }
 
-export const getLocalizedString = (identifier: string, language: string = defaultLanguage): string => {
+export const getLocalizedString = (identifier: string, language: string): string => {
     // NOTE: MUST KEEP IN SYNC WITH getLocalizedElement
     // ANY CHANGE MADE HERE MUST BE MADE THERE FOR CONSISTENCY
 
@@ -39,7 +39,7 @@ export const getLocalizedString = (identifier: string, language: string = defaul
     return ""
 }
 
-export const getLocalizedElement = (identifier: string, language: string = defaultLanguage): ReactElement => {
+export const getLocalizedElement = (identifier: string, language: string): ReactElement => {
     // NOTE: MUST KEEP IN SYNC WITH getLocalizedString
     // ANY CHANGE MADE HERE MUST BE MADE THERE FOR CONSISTENCY
 
