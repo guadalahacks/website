@@ -1,5 +1,6 @@
 import React from 'react';
 import './EventMap.css';
+import { getLocalizedString } from '@/app/locale';
 
 const EventMap: React.FC = () => {
   return (
@@ -7,11 +8,11 @@ const EventMap: React.FC = () => {
       <iframe
         width="100%"
         height="100%"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-103.4570%2C20.7317%2C-103.4550%2C20.7337&layer=mapnik&marker=20.7327,-103.4560"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-103.456632%2C20.733680%2C-103.456632%2C20.7337&layer=mapnik&marker=20.733680,-103.456632"
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
-        title="Event Map"
+        title={getLocalizedString("event_map_title")}
       ></iframe>
       <div className="mobile-overlay"></div> {/* Invisible div */}
     </div>
