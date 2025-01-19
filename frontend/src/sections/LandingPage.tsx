@@ -46,6 +46,9 @@ const LandingPage: React.FC = () => {
       {/* Login button */}
 
       {/* Register button */}
+      <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
+        {getLocalizedElement("landing_signUpSoon", language)}
+      </div>
       <div className="register-button-container">
         <Link href="/projects" className="register-button">
           {getLocalizedElement("landing_seeProjects", language)}

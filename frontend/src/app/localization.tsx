@@ -158,6 +158,10 @@ export const elementLocalization: ElementLocalization = {
         es: <>Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.</>,
         en: <>Soon you'll be able to meet the teams behind these amazing projects.</>
     },
+    landing_signUpSoon: {
+        es: <>Pronto podrás inscribirte a guadala<b>hacks</b> 2025</>,
+        en: <>Registrations for guadala<b>hacks</b> 2025 are opening soon</>
+    },
     landing_seeProjects: {
         es: <>Conoce los proyectos</>,
         en: <>See all the projects</>
