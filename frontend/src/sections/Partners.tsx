@@ -15,13 +15,13 @@ export const Partners: React.FC = () => {
       </h1>
       <div className="partners-logos">
         <PartnerLogo src="./tec.png" alt="Tecnológico de Monterrey" />
-        {/* <PartnerLogo src="./github.png" alt="GitHub" link="https://github.com/features/copilot" wording={getLocalizedString("partners_github_wording", language)} /> */}
+        <PartnerLogo src="./github.png" alt="GitHub" link="https://github.com/features/copilot" wording={getLocalizedString("partners_github_wording", language)} />
         <PartnerLogo src="./life.png" alt="LiFE TEC" />
         <PartnerLogo src="./emprendimiento_tec.png" alt={getLocalizedString("partners_emprendimiento_alt", language)} />
         <PartnerLogo src="./eic.png" alt={getLocalizedString("partners_eic_alt", language)} />
-        {/* <PartnerLogo src="./wtm_2.png" alt="Women Techmakers" /> */}
-        {/* <PartnerLogo src="./gce.png" alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording={getLocalizedString("partners_gce_wording", language)}/> */}
-        {/* <PartnerLogo src="./blend.png" alt="Blend" link="https://blend.com/company/careers/emerging-talent/" wording={getLocalizedString("partners_blend_wording", language)}/> */}
+        <PartnerLogo src="./wtm_2.png" alt="Women Techmakers" />
+        <PartnerLogo src="./gce.png" alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording={getLocalizedString("partners_gce_wording", language)}/>
+        <PartnerLogo src="./blend.png" alt="Blend" link="https://blend.com/company/careers/emerging-talent/" wording={getLocalizedString("partners_blend_wording", language)}/>
       </div>
     </div>
   );
