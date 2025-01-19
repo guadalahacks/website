@@ -3,6 +3,7 @@ import { Varela_Round } from 'next/font/google'
 import './NavigationBar.css'
 import Link from 'next/link';
 import { getLocalizedElement, languageState } from '@/app/locale';
+import LanguageToggle from './LanguageToggle';
 
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
@@ -40,6 +41,7 @@ const NavigationBar: React.FC = () => {
             <Link href="/#contact" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_contact", language)}</Link>
             <Link href="/#partners" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_partners", language)}</Link>
             <Link href="/#about" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_faq", language)}</Link>
+            <LanguageToggle/>
           </div>
 
           {/* Mobile Sidebar */}
@@ -49,6 +51,7 @@ const NavigationBar: React.FC = () => {
             <Link href="/#contact" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_contact", language)}</Link>
             <Link href="/#partners" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_partners", language)}</Link>
             <Link href="/#about" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_faq", language)}</Link>
+            <LanguageToggle/>
             {/*<span className="h-10 bg-transparent blank-reserve"></span> 
             <img src="./mlh-badge.svg" alt="MLH 2023 Hackathon Season" className="h-40 mlh-badge" />*/}
           </div>
