@@ -1,7 +1,10 @@
 import { stringLocalization, elementLocalization } from "@/app/localization"
 import { ReactElement } from 'react'
+import StatePool from 'state-pool'
 
 const defaultLanguage: string = "es"
+
+export const languageState = StatePool.createState(defaultLanguage)
 
 interface LocalizedString {
     [key: string]: string
