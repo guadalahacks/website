@@ -5,7 +5,7 @@ import { Varela_Round } from 'next/font/google'
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 const AboutSection: React.FC = () => {
-  const [language, setLanguage] = languageState.useState();
+  const [language, _] = languageState.useState();
   return (
     <div className={"about-container"+" "+valeraLight.className} id='about'>
       <h2 className="about-title">{getLocalizedElement("faq_title", language)}</h2>

@@ -5,7 +5,7 @@ import { getLocalizedElement, languageState } from '@/app/locale';
 
 
 const CodeOfConduct: React.FC = () => {
-  const [language, setLanguage] = languageState.useState();
+  const [language, _] = languageState.useState();
     return (
       <App>
         <div className="code-of-conduct-container">

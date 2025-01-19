@@ -7,7 +7,7 @@ import { getLocalizedElement, languageState } from '@/app/locale';
 
 
 const Contact: React.FC = () => {
-    const [language, setLanguage] = languageState.useState();
+    const [language, _] = languageState.useState();
     return (
         <div className="contact-us-container">
             <h2 className='contact-title'>{getLocalizedElement("contact_title", language)}</h2>

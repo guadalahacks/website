@@ -8,7 +8,7 @@ interface PartnerLogoProps {
   }
   
 export const PartnerLogo: React.FC<PartnerLogoProps> = ({ src, alt, link, wording }) => {
-  const [language, setLanguage] = languageState.useState();
+  const [language, _] = languageState.useState();
     return (
       <div className="partner-logo-container">
         <img src={src} alt={alt} className="partner-logo" />

@@ -8,7 +8,7 @@ const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 const NavigationBar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [language, setLanguage] = languageState.useState();
+  const [language, _] = languageState.useState();
   const valeraClass = valeraLight.className;
 
   return (

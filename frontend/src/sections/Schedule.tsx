@@ -6,7 +6,7 @@ import { getLocalizedElement, languageState } from '@/app/locale';
 const valeraLight = Varela_Round({ weight: "400", subsets: ["latin"] });
 
 export const Schedule: React.FC = () => {
-    const [language, setLanguage] = languageState.useState();
+    const [language, _] = languageState.useState();
     return (
         <div className={`schedule-container ${valeraLight.className}`} id="schedule">
             <h1 className="schedule-title">{getLocalizedElement("schedule_title", language)}</h1>

@@ -11,7 +11,7 @@ import { getLocalizedElement, languageState } from '@/app/locale';
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 const Footer: React.FC = () => {
-    const [language, setLanguage] = languageState.useState();
+    const [language, _] = languageState.useState();
   return (
     <div>
         <div className="footer-container">

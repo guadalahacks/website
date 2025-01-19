@@ -7,7 +7,7 @@ import { PartnerLogo } from '../components/PartnerLogo'; // Import the new compo
 const valeraLight = Varela_Round({ weight: "400", subsets: ["latin"] });
 
 export const Partners: React.FC = () => {
-  const [language, setLanguage] = languageState.useState();
+  const [language, _] = languageState.useState();
   return (
     <div className={"partners-container " + valeraLight.className} id='partners'>
       <h1 className="partners-title">
