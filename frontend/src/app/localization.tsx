@@ -33,6 +33,10 @@ export const stringLocalization: StringLocalization = {
     partnerLogo_defaultWording: {
         es: "Enlace",
         en: "Link"
+    },
+    event_map_title: {
+        es: "Ubicación del evento",
+        en: "Event location"
     }
 }
 
