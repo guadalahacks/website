@@ -27,11 +27,11 @@ const Countdown: React.FC = () => {
 
   return (
     <div className="countdown-container">
-      <div className="countdown-label">
-        {getLocalizedElement("countdown")}
-      </div>
       <div className="countdown-timer">
         {isClient ? timerString : ''}
+      </div>
+      <div className="countdown-label">
+        {getLocalizedElement("landing_countdown")}
       </div>
     </div>
   );
