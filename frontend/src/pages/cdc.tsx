@@ -1,14 +1,15 @@
 import React from 'react';
 import './cdc.css';
 import App from '@/layouts/App';
-import { getLocalizedElement } from '@/app/locale';
+import { getLocalizedElement, languageState } from '@/app/locale';
 
 
 const CodeOfConduct: React.FC = () => {
+  const [language, _] = languageState.useState();
     return (
       <App>
         <div className="code-of-conduct-container">
-          {getLocalizedElement("cdc")}
+          {getLocalizedElement("cdc", language)}
         </div>
       </App>
     );

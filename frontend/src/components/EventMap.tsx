@@ -1,8 +1,9 @@
 import React from 'react';
 import './EventMap.css';
-import { getLocalizedString } from '@/app/locale';
+import { getLocalizedString, languageState } from '@/app/locale';
 
 const EventMap: React.FC = () => {
+  const [language, _] = languageState.useState();
   return (
     <div className="event-map-container">
       <iframe
@@ -12,7 +13,7 @@ const EventMap: React.FC = () => {
         style={{ border: 0 }}
         allowFullScreen
         loading="lazy"
-        title={getLocalizedString("event_map_title")}
+        title={getLocalizedString("event_map_title", language)}
       ></iframe>
       <div className="mobile-overlay"></div> {/* Invisible div */}
     </div>

@@ -1,17 +1,18 @@
 import React from 'react';
 import './Contact.scss'
-import { getLocalizedElement } from '@/app/locale';
+import { getLocalizedElement, languageState } from '@/app/locale';
 
 
 
 
 
 const Contact: React.FC = () => {
+    const [language, _] = languageState.useState();
     return (
         <div className="contact-us-container">
-            <h2 className='contact-title'>{getLocalizedElement("contact_title")}</h2>
-            <p>{getLocalizedElement("contact_contactUs")}</p>
-            <h2 className='contact-sub'>{getLocalizedElement("contact_addressHeader")}</h2>
+            <h2 className='contact-title'>{getLocalizedElement("contact_title", language)}</h2>
+            <p>{getLocalizedElement("contact_contactUs", language)}</p>
+            <h2 className='contact-sub'>{getLocalizedElement("contact_addressHeader", language)}</h2>
             <p>Tecnológico de Monterrey, Campus Guadalajara</p>
             <p>Av. Gral. Ramón Corona 2514<br />Colonia Nuevo México, 45201<br />Zapopan, Jal., México</p>
             <div className="maps-links">
