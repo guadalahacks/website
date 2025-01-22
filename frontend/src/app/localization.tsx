@@ -370,8 +370,8 @@ export const elementLocalization: ElementLocalization = {
             <h2>Contacto</h2>
             <p>
                 Para reportar problemas relacionados con el código de conducta, comunícate con
-                un miembro del equipo de guadala<b>hacks</b> o escríbenos a
-                <a href="mailto:incidentes@guadalahacks.com" style={{color: "#E4007C"}}>
+                un miembro del equipo de guadala<b>hacks</b> o escríbenos a <a
+                href="mailto:incidentes@guadalahacks.com" style={{color: "#E4007C"}}>
                     incidentes@guadalahacks.com
                 </a>.
             </p>
