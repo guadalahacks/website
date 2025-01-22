@@ -77,9 +77,9 @@ export const elementLocalization: ElementLocalization = {
             Somos un evento inclusivo y diverso, y fomentamos un espacio seguro para todxs.
         </>,
         en: <>
-            You can join us if you're a student or alum who graduated less than one year ago
+            You can join us if you&apos;re a student or alum who graduated less than one year ago
             from any Tecnológico de Monterrey campus, regardless of your major, experience or previous studies.
-            We're an inclusive and diverse event, and we aim to foster a safe space for everyone.
+            We&apos;re an inclusive and diverse event, and we aim to foster a safe space for everyone.
         </>
     },
     faq_q3: {
@@ -95,7 +95,7 @@ export const elementLocalization: ElementLocalization = {
         en: <>
             Participation is free of charge.
             We will have free meals throughout the weekned, as well as prizes for the best projects.
-            You won't want to miss it!
+            You won&apos;t want to miss it!
         </>
     },
     faq_q4: {
@@ -156,7 +156,7 @@ export const elementLocalization: ElementLocalization = {
     },
     landing_teamsComingSoon: {
         es: <>Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.</>,
-        en: <>Soon you'll be able to meet the teams behind these amazing projects.</>
+        en: <>Soon you&apos;ll be able to meet the teams behind these amazing projects.</>
     },
     landing_signUpSoon: {
         es: <>Pronto podrás inscribirte a guadala<b>hacks</b> 2025</>,
@@ -386,7 +386,7 @@ export const elementLocalization: ElementLocalization = {
             <p>
                 The goal of guadala<b>hacks</b> is to foster innovation and the creation of
                 tech solutions in a space where we can build, contribute and learn.
-                We're committed to provide a safe, welcoming environment for everyone, regardless
+                We&apos;re committed to provide a safe, welcoming environment for everyone, regardless
                 of gender, sexual orientation, disability, ethnical background, religion, or any
                 other diversity category. This code of conduct outlines the behavior guidelines
                 for all attendands and staff members, as well as the consequences of breaking it.
@@ -396,7 +396,7 @@ export const elementLocalization: ElementLocalization = {
                 <li>Participate with authenticity and in an active manner.</li>
                 <li>Be considerate and respectful in your words and actions.</li>
                 <li>Avoid any comment or conduct that can be discriminatory, offensive or violent.</li>
-                <li>Be respectful of others' boundaries and personal space.</li>
+                <li>Be respectful of others&apos; boundaries and personal space.</li>
                 <li>
                     Be mindful of what your fellow participants are saying and do your best to
                     foster a safe and positive experience for everyone.
@@ -407,7 +407,7 @@ export const elementLocalization: ElementLocalization = {
             <ul>
                 <li>Harassment, the use of offensive language and sexualized imagery.</li>
                 <li>Intimidation and stalking.</li>
-                <li>Photographs or video recording without others' explicit consent.</li>
+                <li>Photographs or video recording without others&apos; explicit consent.</li>
                 <li>Disruption of talks and other events.</li>
                 <li>Inappropriate or undersired phyiscal contact.</li>
                 <li>Online or in person intimidation or bullying.</li>
@@ -423,7 +423,7 @@ export const elementLocalization: ElementLocalization = {
             </p>
             <h2>Reporting unacceptable behavior</h2>
             <p>
-                If you're witness or victim of any unacceptable behavior, or you have any other concert,
+                If you&apos;re witness or victim of any unacceptable behavior, or you have any other concert,
                 please reach out to a member of the guadala<b>hacks</b> staff as soon as possible
                 or write us an email at <a href="mailto:incidents@guadalahacks.com" style={{color: "#E4007C"}}>
                     incidents@guadalahacks.com
