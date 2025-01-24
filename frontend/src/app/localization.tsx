@@ -382,11 +382,11 @@ export const elementLocalization: ElementLocalization = {
         </>,
         en: <>
             <h1>The guadala<b>hacks</b> Code of Conduct</h1>
-            <h2>Our commitments</h2>
+            <h2>Our commitments!</h2>
             <p>
                 The goal of guadala<b>hacks</b> is to foster innovation and the creation of
                 tech solutions in a space where we can build, contribute and learn.
-                We're committed to provide a safe, welcoming environment for everyone, regardless
+                We&apos;re committed to provide a safe, welcoming environment for everyone, regardless
                 of gender, sexual orientation, disability, ethnical background, religion, or any
                 other diversity category. This code of conduct outlines the behavior guidelines
                 for all attendands and staff members, as well as the consequences of breaking it.
