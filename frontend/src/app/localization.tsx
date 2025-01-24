@@ -386,7 +386,7 @@ export const elementLocalization: ElementLocalization = {
             <p>
                 The goal of guadala<b>hacks</b> is to foster innovation and the creation of
                 tech solutions in a space where we can build, contribute and learn.
-                We&apos;re committed to provide a safe, welcoming environment for everyone, regardless
+                We're committed to provide a safe, welcoming environment for everyone, regardless
                 of gender, sexual orientation, disability, ethnical background, religion, or any
                 other diversity category. This code of conduct outlines the behavior guidelines
                 for all attendands and staff members, as well as the consequences of breaking it.
