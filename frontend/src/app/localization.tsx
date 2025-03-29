@@ -178,6 +178,10 @@ export const elementLocalization: ElementLocalization = {
         es: <>Partners</>,
         en: <>Partners</>
     },
+    sponsors_title: {
+        es: <>Patrocinadores</>,
+        en: <>Sponsors</>
+    },
     schedule_title: {
         es: <>Agenda</>,
         en: <>Schedule</>
