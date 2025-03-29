@@ -311,8 +311,8 @@ export const elementLocalization: ElementLocalization = {
         en: <>Contact</>
     },
     navbar_partners: {
-        es: <>Partners</>,
-        en: <>Partners</>
+        es: <>Patrocinadores</>,
+        en: <>Sponsors</>
     },
     navbar_faq: {
         es: <>FAQ</>,
