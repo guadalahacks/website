@@ -9,8 +9,8 @@ const valeraLight = Varela_Round({ weight: "400", subsets: ["latin"] });
 export const Partners: React.FC = () => {
   const [language, _] = languageState.useState();
   return (
-    <>
-      <div className={"partners-container " + valeraLight.className} id='sponsors'>
+    <div id='partners'>
+      <div className={"partners-container " + valeraLight.className}>
         <h1 className="partners-title">
           {getLocalizedElement("sponsors_title", language)}
         </h1>
@@ -19,7 +19,7 @@ export const Partners: React.FC = () => {
           <PartnerLogo src="./hp.png" alt="HP" />
         </div>
       </div>
-      <div className={"partners-container " + valeraLight.className} id='partners'>
+      <div className={"partners-container " + valeraLight.className}>
         <h1 className="partners-title">
           {getLocalizedElement("partners_title", language)}
         </h1>
@@ -30,6 +30,6 @@ export const Partners: React.FC = () => {
           <PartnerLogo src="./eic.png" alt={getLocalizedString("partners_eic_alt", language)} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
