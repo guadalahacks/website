@@ -11,6 +11,8 @@ const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 // Dynamically import Countdown to be rendered only on the client
 const Countdown = dynamic(() => import('../components/Countdown'));
+const targetDate = new Date('2025-05-17T10:00-06:00'); // Modify this date as needed
+
 
 const LandingPage: React.FC = () => {
   const [language, _] = languageState.useState();
@@ -30,7 +32,7 @@ const LandingPage: React.FC = () => {
       {/* <div className={'countdown-text text-white'+' '+valeraLight.className}>
         {getLocalizedElement("landing_seeYouSoon", language)}
       </div> */}
-      <Countdown />
+      <Countdown date={targetDate} />
 
       {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}> */}
       {/* Location */}

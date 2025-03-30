@@ -3,21 +3,24 @@ import React, { useState, useEffect } from 'react';
 import { getLocalizedElement, languageState } from '@/app/locale';
 import './Countdown.css';
 
-const Countdown: React.FC = () => {
-  const targetDate = new Date('2025-05-17T10:00-06:00'); // Modify this date as needed
+interface CountdownProps {
+  date: Date;
+}
 
-  const [timeRemaining, setTimeRemaining] = useState<number>(targetDate.getTime() - new Date().getTime());
+const Countdown: React.FC<CountdownProps> = ({ date }) => {
+
+  const [timeRemaining, setTimeRemaining] = useState<number>(date.getTime() - new Date().getTime());
   const [isClient, setIsClient] = useState(false)
   const [language, _] = languageState.useState();
 
   useEffect(() => {
     setIsClient(true)
     const timer = setInterval(() => {
-      setTimeRemaining(targetDate.getTime() - new Date().getTime());
+      setTimeRemaining(date.getTime() - new Date().getTime());
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [targetDate]);
+  }, [date]);
 
   const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
   const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
