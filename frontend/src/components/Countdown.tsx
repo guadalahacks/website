@@ -1,10 +1,10 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { getLocalizedElement, languageState } from '@/app/locale';
 import './Countdown.css';
 
 const Countdown: React.FC = () => {
-  const targetDate = new Date('2025-05-17T10:00-06:00'); // Modify this date as needed
+  const targetDate = useMemo(() => new Date('2025-05-17T10:00-06:00'), [])
 
   const [timeRemaining, setTimeRemaining] = useState<number>(targetDate.getTime() - new Date().getTime());
   const [isClient, setIsClient] = useState(false)
