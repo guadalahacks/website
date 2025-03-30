@@ -41,6 +41,14 @@
     text-align: center;
 }
 
+.dates-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
 .info-text{
     color: white;
     font-size: 20px;
@@ -203,6 +211,10 @@
         font-size: 1.5em;
     }
 
+    .dates-text{
+        text-align: center;
+    }
+
     .info-text{
         margin-top: 20px;
         font-size: 1em;
@@ -250,6 +262,10 @@
 
     .countdown-text{
         font-size: 1.2em;
+    }
+
+    .dates-text{
+        text-align: center;
     }
 
     .info-text{
