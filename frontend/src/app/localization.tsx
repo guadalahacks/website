@@ -150,6 +150,10 @@ export const elementLocalization: ElementLocalization = {
         es: <>¡Nos vemos en 2025!</>,
         en: <>See you in 2025!</>
     },
+    landing_eventDates: {
+        es: <>17 y 18 de mayo de 2025</>,
+        en: <>17-18 May 2025</>
+    },
     landing_thankYou: {
         es: <>Muchas gracias por acomapañarnos.</>,
         en: <>Thank you for coming.</>
