@@ -4,6 +4,8 @@ import './LandingPage.css'; // Import the CSS
 import { getLocalizedElement, languageState } from '@/app/locale';
 import { Varela_Round } from 'next/font/google'
 import Link from 'next/link';
+import Image from 'next/image';
+import img_logo_outline from './../../public/logo-outline.png';
 
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
@@ -16,7 +18,7 @@ const LandingPage: React.FC = () => {
     <div className="gradient-container">
 
       <div className='logo-container'>
-        <img src="./logo-outline.png" alt="logo" className="logo" />
+        <Image src={img_logo_outline} alt="logo" className="logo" />
         <span className={'logo-text-landing'+' '+valeraLight.className}>
           {getLocalizedElement("landing_title", language)}
         </span>
