@@ -21,8 +21,13 @@ const LandingPage: React.FC = () => {
 
       <div className='logo-container'>
         <Image src={img_logo_outline} alt="logo" className="logo" />
-        <span className={'logo-text-landing'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_title", language)}
+        <span>
+          <span className={'logo-text-landing'+' '+valeraLight.className}>
+            {getLocalizedElement("landing_title", language)}
+          </span>
+          <div className={'dates-text text-white'}>
+            {getLocalizedElement("landing_eventDates", language)}
+          </div>
         </span>
       </div>
       

@@ -41,6 +41,14 @@
     text-align: center;
 }
 
+.dates-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
 .info-text{
     color: white;
     font-size: 20px;
