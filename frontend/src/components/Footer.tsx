@@ -7,7 +7,9 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Varela_Round } from 'next/font/google'
 import { faHeart } from '@fortawesome/free-solid-svg-icons/faHeart';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getLocalizedElement, languageState } from '@/app/locale';
+import img_logo_outline from './../../public/logo-outline.png';
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
 const Footer: React.FC = () => {
@@ -18,7 +20,7 @@ const Footer: React.FC = () => {
         <div className="footer-row">
             {/* Copyright Notice */}
             <div className="footer-column">
-                <img src="./logo-outline.png" alt="logo" className="footer-logo" width={150}/>
+                <Image src={img_logo_outline} alt="logo" className="footer-logo" width={150}/>
             </div>
 
             {/* Social Media Icons */}

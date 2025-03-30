@@ -1,6 +1,6 @@
 .gradient-container {
     background: linear-gradient(to right, #E4007C, #FF8B74);
-    height: calc(100vh - 96px);
+    height: calc(100vh - 86px);
     min-height: 490px;
     display: flex;
     flex-direction: column;
