@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Varela_Round } from 'next/font/google'
 import './NavigationBar.css'
 import Link from 'next/link';
+import Image from 'next/image';
 import { getLocalizedElement, languageState } from '@/app/locale';
 import LanguageToggle from './LanguageToggle';
+import img_logo from './../../public/logo.png';
 
 const valeraLight = Varela_Round({weight: "400", subsets: ["latin"]})
 
@@ -23,7 +25,7 @@ const NavigationBar: React.FC = () => {
           {/* Logo section */}
           <Link href="/" className='nav-logo-anchor'>
             <div className="flex items-center">
-              <img src="/logo.png" alt="logo" className="h-20 nav-logo" />
+              <Image src={img_logo} alt="logo" className="h-20 nav-logo" />
               <div className='ml-6 text-4xl font-semibold desktop-logo-text'>
                 <span className={'logo-text-nav'+' '+valeraClass}>{getLocalizedElement("navbar_title", language)}</span>
               </div>
