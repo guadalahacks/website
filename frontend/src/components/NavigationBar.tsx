@@ -25,7 +25,7 @@ const NavigationBar: React.FC = () => {
           {/* Logo section */}
           <Link href="/" className='nav-logo-anchor'>
             <div className="flex items-center">
-              <Image src={img_logo} alt="logo" className="h-20 nav-logo" />
+              <Image src={img_logo} alt="logo" className="w-10 nav-logo" />
               <div className='ml-6 text-4xl font-semibold desktop-logo-text'>
                 <span className={'logo-text-nav'+' '+valeraClass}>{getLocalizedElement("navbar_title", language)}</span>
               </div>
