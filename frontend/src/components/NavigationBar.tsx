@@ -14,6 +14,17 @@ const NavigationBar: React.FC = () => {
   const [language, _] = languageState.useState();
   const valeraClass = valeraLight.className;
 
+
+  const navItems = (
+    <>
+      <Link href="/" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_home", language)}</Link>
+      <Link href="/#contact" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_contact", language)}</Link>
+      <Link href="/#partners" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_partners", language)}</Link>
+      <Link href="/#about" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_faq", language)}</Link>
+      <LanguageToggle/>
+    </>
+  )
+  
   return (
     <div>
       {/* Screen Dim */}
@@ -39,21 +50,13 @@ const NavigationBar: React.FC = () => {
 
           {/* Navigation buttons */}
           <div className={`flex items-center space-x-6 desktop-menu`}>
-            <Link href="/" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_home", language)}</Link>
-            <Link href="/#contact" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_contact", language)}</Link>
-            <Link href="/#partners" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_partners", language)}</Link>
-            <Link href="/#about" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_faq", language)}</Link>
-            <LanguageToggle/>
+            {navItems}
           </div>
 
           {/* Mobile Sidebar */}
           <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
             <span className="close-btn" onClick={() => setIsMenuOpen(false)}>×</span>
-            <Link href="/" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_home", language)}</Link>
-            <Link href="/#contact" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_contact", language)}</Link>
-            <Link href="/#partners" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_partners", language)}</Link>
-            <Link href="/#about" className="text-lg hover:text-gray-400">{getLocalizedElement("navbar_faq", language)}</Link>
-            <LanguageToggle/>
+            {navItems}
             {/*<span className="h-10 bg-transparent blank-reserve"></span> 
             <img src="./mlh-badge.svg" alt="MLH 2023 Hackathon Season" className="h-40 mlh-badge" />*/}
           </div>
