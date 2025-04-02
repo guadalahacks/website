@@ -282,18 +282,6 @@ export const elementLocalization: ElementLocalization = {
         es: <>Código de conducta</>,
         en: <>Code of conduct</>
     },
-    footer_resources_joinAsStaff: {
-        es: <>Forma parte del staff</>,
-        en: <>Join our staff</>
-    },
-    footer_resources_joinAsMentor: {
-        es: <>Conviértete en mentor</>,
-        en: <>Become a mentor</>
-    },
-    footer_resources_joinAsSponsor: {
-        es: <>Apóyanos como patrocinador</>,
-        en: <>Support us as a sponsor</>
-    },
     footer_footnote_madeWith: {
         es: <>Creado con </>,
         en: <>Made with </>

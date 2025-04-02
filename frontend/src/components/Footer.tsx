@@ -35,9 +35,6 @@ const Footer: React.FC = () => {
             <div className="footer-column">
             <h3 className="footer-title">{getLocalizedElement("footer_resources", language)}</h3>
             <Link href="/cdc" className="footer-link">{getLocalizedElement("footer_resources_cc", language)}</Link>
-            <a href="#" className="footer-link-disabled">{getLocalizedElement("footer_resources_joinAsStaff", language)}</a>
-            <a href="#" className="footer-link-disabled">{getLocalizedElement("footer_resources_joinAsMentor", language)}</a>
-            <a href="#" className="footer-link-disabled">{getLocalizedElement("footer_resources_joinAsSponsor", language)}</a>
             </div>
         </div>
         
