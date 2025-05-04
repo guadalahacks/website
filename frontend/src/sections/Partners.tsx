@@ -5,6 +5,7 @@ import { Varela_Round } from 'next/font/google';
 import { PartnerLogo } from '../components/PartnerLogo'; // Import the new component
 import img_here from './../../public/here.png';
 import img_github from './../../public/github.png';
+import img_gce from './../../public/gce.png';
 import img_life from './../../public/life.png';
 import img_emprendimiento_tec from './../../public/emprendimiento_tec.png';
 import img_eic from './../../public/eic.png';
@@ -21,7 +22,8 @@ export const Partners: React.FC = () => {
         </h1>
         <div className="partners-logos">
           <PartnerLogo src={img_here} alt="HERE Technologies" />
-          <PartnerLogo src={img_github} alt="GitHub" />
+          <PartnerLogo src={img_github} alt="GitHub" link="https://github.com/features/copilot" wording='Aprende sobre GitHub Copilot' />
+          <PartnerLogo src={img_gce} alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording="GitHub Student Developer Pack"/>
         </div>
       </div>
       <div className={"partners-container " + valeraLight.className}>
