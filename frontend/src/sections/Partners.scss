@@ -33,8 +33,20 @@
   align-items: center;
 }
 
+.partner-logo-container-highlight {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .partner-logo {
   width: 100%;
+}
+
+.partner-logo-highlight {
+  width: 40%;
 }
 
 .partner-link {
@@ -63,5 +75,9 @@
 
   .partner-logo-container {
     width: 80%;
+  }
+
+  .partner-logo-highlight {
+    width: 100%;
   }
 }
