@@ -4,6 +4,7 @@ import { getLocalizedElement, getLocalizedString, languageState } from '@/app/lo
 import { Varela_Round } from 'next/font/google';
 import { PartnerLogo } from '../components/PartnerLogo'; // Import the new component
 import img_here from './../../public/here.png';
+import img_github from './../../public/github.png';
 import img_intel from './../../public/intel.png';
 import img_hp from './../../public/hp.png';
 import img_tec from './../../public/tec.png';
@@ -23,6 +24,7 @@ export const Partners: React.FC = () => {
         </h1>
         <div className="partners-logos">
           <PartnerLogo src={img_here} alt="HERE Technologies" />
+          <PartnerLogo src={img_github} alt="GitHub" />
           <PartnerLogo src={img_intel} alt="Intel" />
           <PartnerLogo src={img_hp} alt="HP" />
         </div>
