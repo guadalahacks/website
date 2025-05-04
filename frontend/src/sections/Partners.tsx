@@ -25,8 +25,6 @@ export const Partners: React.FC = () => {
         <div className="partners-logos">
           <PartnerLogo src={img_here} alt="HERE Technologies" />
           <PartnerLogo src={img_github} alt="GitHub" />
-          <PartnerLogo src={img_intel} alt="Intel" />
-          <PartnerLogo src={img_hp} alt="HP" />
         </div>
       </div>
       <div className={"partners-container " + valeraLight.className}>
