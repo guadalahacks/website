@@ -21,7 +21,7 @@ export const Partners: React.FC = () => {
           {getLocalizedElement("sponsors_title", language)}
         </h1>
         <div className="partners-logos">
-          <PartnerLogo src={img_here} alt="HERE Technologies" />
+          <PartnerLogo src={img_here} alt="HERE Technologies" highlight />
           <PartnerLogo src={img_github} alt="GitHub" link="https://github.com/features/copilot" wording={getLocalizedString("partners_github_wording", language)} />
           <PartnerLogo src={img_gce} alt="GitHub Campus Experts" link="https://education.github.com/benefits?utm_source=2024-04-18-Guadalahacks" wording={getLocalizedString("partners_gce_wording", language)}/>
         </div>
