@@ -34,9 +34,8 @@ export const Partners: React.FC = () => {
           {getLocalizedElement("partners_title", language)}
         </h1>
         <div className="partners-logos">
-          <PartnerLogo src={img_tec} alt="Tecnológico de Monterrey" />
-          <PartnerLogo src={img_life} alt="LiFE TEC" />
           <PartnerLogo src={img_emprendimiento_tec} alt={getLocalizedString("partners_emprendimiento_alt", language)} />
+          <PartnerLogo src={img_life} alt="LiFE TEC" />
           <PartnerLogo src={img_eic} alt={getLocalizedString("partners_eic_alt", language)} />
         </div>
       </div>
