@@ -175,8 +175,8 @@ export const elementLocalization: ElementLocalization = {
         en: <>See all the projects</>
     },
     landing_countdown: {
-        es: <>para comenzar.</>,
-        en: <>to start.</>
+        es: <>para finalizar</>,
+        en: <>to finish</>
     },
     partners_title: {
         es: <>Partners</>,
