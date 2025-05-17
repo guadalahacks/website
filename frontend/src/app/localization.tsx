@@ -170,6 +170,10 @@ export const elementLocalization: ElementLocalization = {
         es: <>Inscríbete ahora</>,
         en: <>Register now</>
     },
+    landing_devpost: {
+        es: <>Crea tu equipo en Devpost</>,
+        en: <>Create your team on Devpost</>
+    },
     landing_seeProjects: {
         es: <>Conoce los proyectos</>,
         en: <>See all the projects</>
