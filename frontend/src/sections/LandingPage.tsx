@@ -56,7 +56,7 @@ const LandingPage: React.FC = () => {
       {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
         {getLocalizedElement("landing_signUpSoon", language)}
       </div> */}
-      <div className="register-button-container">
+      {/* <div className="register-button-container">
         <Link href="https://registro.guadalahacks.com/" className="register-button">
           {getLocalizedElement("landing_register", language)}
         </Link>
@@ -65,9 +65,7 @@ const LandingPage: React.FC = () => {
         <Link href="/projects" className="register-button">
           {getLocalizedElement("landing_seeProjects", language)}
         </Link>
-      </div>
-      
-      
+      </div> */}
 
       {/* Placeholder Squares */}
       
