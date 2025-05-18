@@ -4,7 +4,7 @@ import { getLocalizedElement, languageState } from '@/app/locale';
 import './Countdown.css';
 
 const Countdown: React.FC = () => {
-  const targetDate = useMemo(() => new Date('2025-05-18T11:15-06:00'), [])
+  const targetDate = useMemo(() => new Date('2025-05-18T11:10-06:00'), [])
 
   const [timeRemaining, setTimeRemaining] = useState<number>(targetDate.getTime() - new Date().getTime());
   const [isClient, setIsClient] = useState(false)
