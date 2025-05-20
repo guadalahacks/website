@@ -63,7 +63,7 @@ const LandingPage: React.FC = () => {
           </Link>
         </div>
       </div>
-      
+
       {/* Placeholder Squares */}
       
       <div className="placeholder-square one"></div>
