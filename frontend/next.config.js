@@ -75,8 +75,14 @@ const nextConfig = {
                 basePath: false
             },
             {
-                source: '/projects',
+                source: '/projects24',
                 destination: 'https://guadalahacks.devpost.com/project-gallery',
+                permanent: false,
+                basePath: false
+            },
+            {
+                source: '/projects25',
+                destination: 'https://guadalahacks-2025.devpost.com/project-gallery',
                 permanent: false,
                 basePath: false
             }

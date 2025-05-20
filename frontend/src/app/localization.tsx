@@ -37,6 +37,10 @@ export const stringLocalization: StringLocalization = {
     event_map_title: {
         es: "Ubicación del evento",
         en: "Event location"
+    },
+    landing_projects: {
+        es: "Proyectos ",
+        en: "Projects "
     }
 }
 
@@ -147,24 +151,12 @@ export const elementLocalization: ElementLocalization = {
         en: <>guadala<b>hacks</b></>
     },
     landing_seeYouSoon: {
-        es: <>¡Nos vemos en 2025!</>,
-        en: <>See you in 2025!</>
+        es: <>¡Nos vemos en 2026!</>,
+        en: <>See you in 2026!</>
     },
     landing_eventDates: {
         es: <>17 y 18 de mayo de 2025</>,
         en: <>17-18 May 2025</>
-    },
-    landing_thankYou: {
-        es: <>Muchas gracias por acomapañarnos.</>,
-        en: <>Thank you for coming.</>
-    },
-    landing_teamsComingSoon: {
-        es: <>Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.</>,
-        en: <>Soon you&apos;ll be able to meet the teams behind these amazing projects.</>
-    },
-    landing_signUpSoon: {
-        es: <>Pronto podrás inscribirte a guadala<b>hacks</b> 2025</>,
-        en: <>Registrations for guadala<b>hacks</b> 2025 are opening soon</>
     },
     landing_register: {
         es: <>Inscríbete ahora</>,
@@ -173,10 +165,6 @@ export const elementLocalization: ElementLocalization = {
     landing_devpost: {
         es: <>Crea tu equipo en Devpost</>,
         en: <>Create your team on Devpost</>
-    },
-    landing_seeProjects: {
-        es: <>Conoce los proyectos</>,
-        en: <>See all the projects</>
     },
     landing_countdown: {
         es: <>para finalizar</>,
