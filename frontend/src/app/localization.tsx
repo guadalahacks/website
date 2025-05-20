@@ -37,6 +37,10 @@ export const stringLocalization: StringLocalization = {
     event_map_title: {
         es: "Ubicación del evento",
         en: "Event location"
+    },
+    landing_projects: {
+        es: "Proyectos ",
+        en: "Projects "
     }
 }
 
@@ -161,10 +165,6 @@ export const elementLocalization: ElementLocalization = {
     landing_devpost: {
         es: <>Crea tu equipo en Devpost</>,
         en: <>Create your team on Devpost</>
-    },
-    landing_projects: {
-        es: <>Proyectos</>,
-        en: <>Projects</>
     },
     landing_countdown: {
         es: <>para finalizar</>,
