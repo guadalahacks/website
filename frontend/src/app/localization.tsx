@@ -154,18 +154,6 @@ export const elementLocalization: ElementLocalization = {
         es: <>17 y 18 de mayo de 2025</>,
         en: <>17-18 May 2025</>
     },
-    landing_thankYou: {
-        es: <>Muchas gracias por acomapañarnos.</>,
-        en: <>Thank you for coming.</>
-    },
-    landing_teamsComingSoon: {
-        es: <>Pronto podrás conocer a los equipos detrás de los asombrosos proyectos.</>,
-        en: <>Soon you&apos;ll be able to meet the teams behind these amazing projects.</>
-    },
-    landing_signUpSoon: {
-        es: <>Pronto podrás inscribirte a guadala<b>hacks</b> 2025</>,
-        en: <>Registrations for guadala<b>hacks</b> 2025 are opening soon</>
-    },
     landing_register: {
         es: <>Inscríbete ahora</>,
         en: <>Register now</>
@@ -174,9 +162,9 @@ export const elementLocalization: ElementLocalization = {
         es: <>Crea tu equipo en Devpost</>,
         en: <>Create your team on Devpost</>
     },
-    landing_seeProjects: {
-        es: <>Conoce los proyectos</>,
-        en: <>See all the projects</>
+    landing_projects: {
+        es: <>Proyectos</>,
+        en: <>Projects</>
     },
     landing_countdown: {
         es: <>para finalizar</>,

@@ -16,7 +16,7 @@ const LandingPage: React.FC = () => {
   const [language, _] = languageState.useState();
   return (
     <div className="gradient-container">
-
+      {/* LOGO AND DATES */}
       <div className='logo-container'>
         <Image src={img_logo_outline} alt="logo" className="logo" />
         <span>
@@ -29,55 +29,41 @@ const LandingPage: React.FC = () => {
         </span>
       </div>
       
-      {/* (Commented divs for post-hackathon) */}
-
-      {/* Countdown */}
-      <div className={'countdown-text text-white'+' '+valeraLight.className}>
-        {getLocalizedElement("landing_seeYouSoon", language)}
-      </div>
       {/* <Countdown /> */}
 
-      {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}> */}
-      {/* Location */}
-        <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_thankYou", language)}
-        </div>
-
-        {/* Date */}
-
-        {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-          {getLocalizedElement("landing_teamsComingSoon", language)}
-        </div> */}
-      {/* </div> */}
-      
-      {/* Login button */}
-
-      {/* Register button */}
-      {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-        {getLocalizedElement("landing_signUpSoon", language)}
+      {/* PRE-HACK */}
+      {/* <div className="register-button-container">
+        <Link href="https://registro.guadalahacks.com/" className="register-button">
+          {getLocalizedElement("landing_register", language)}
+        </Link>
       </div> */}
 
+      {/* DURING HACK */}
       {/* <div className="register-button-container">
         <Link href="https://guadalahacks-2025.devpost.com/" className="register-button">
           {getLocalizedElement("landing_devpost", language)}
         </Link>
       </div> */}
 
-      {/* <div className="register-button-container">
-        <Link href="https://registro.guadalahacks.com/" className="register-button">
-          {getLocalizedElement("landing_register", language)}
-        </Link>
-      </div> */}
-      <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
-        {getLocalizedElement("landing_seeProjects", language)}
-      </div>
-      <div className="register-button-container">
-        <Link href="/projects25" className="register-button">2025</Link>
-      </div>
-      <div className="register-button-container">
-        <Link href="/projects24" className="register-button">2024</Link>
+
+      {/* POST-HACK */}
+      <div className={'countdown-text text-white'+' '+valeraLight.className}>
+        {getLocalizedElement("landing_seeYouSoon", language)}
       </div>
 
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div className="register-button-container">
+          <Link href="/projects25" className="register-button">
+            {getLocalizedElement("landing_projects", language) + " 2025"}
+          </Link>
+        </div>
+        <div className="register-button-container">
+          <Link href="/projects24" className="register-button">
+            {getLocalizedElement("landing_projects", language) + " 2024"}
+          </Link>
+        </div>
+      </div>
+      
       {/* Placeholder Squares */}
       
       <div className="placeholder-square one"></div>
