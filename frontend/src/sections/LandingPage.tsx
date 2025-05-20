@@ -1,7 +1,7 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import './LandingPage.css'; // Import the CSS
-import { getLocalizedElement, languageState } from '@/app/locale';
+import { getLocalizedElement, getLocalizedString, languageState } from '@/app/locale';
 import { Varela_Round } from 'next/font/google'
 import Link from 'next/link';
 import Image from 'next/image';
