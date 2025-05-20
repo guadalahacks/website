@@ -32,16 +32,16 @@ const LandingPage: React.FC = () => {
       {/* (Commented divs for post-hackathon) */}
 
       {/* Countdown */}
-      {/* <div className={'countdown-text text-white'+' '+valeraLight.className}>
+      <div className={'countdown-text text-white'+' '+valeraLight.className}>
         {getLocalizedElement("landing_seeYouSoon", language)}
-      </div> */}
-      <Countdown />
+      </div>
+      {/* <Countdown /> */}
 
       {/* <div style={{ display: 'flex', justifyContent: 'space-between' }}> */}
       {/* Location */}
-        {/* <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
+        <div className={'text-3xl font-semibold text-white info-text'+' '+valeraLight.className}>
           {getLocalizedElement("landing_thankYou", language)}
-        </div> */}
+        </div>
 
         {/* Date */}
 
