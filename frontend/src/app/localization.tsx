@@ -147,8 +147,8 @@ export const elementLocalization: ElementLocalization = {
         en: <>guadala<b>hacks</b></>
     },
     landing_seeYouSoon: {
-        es: <>¡Nos vemos en 2025!</>,
-        en: <>See you in 2025!</>
+        es: <>¡Nos vemos en 2026!</>,
+        en: <>See you in 2026!</>
     },
     landing_eventDates: {
         es: <>17 y 18 de mayo de 2025</>,
