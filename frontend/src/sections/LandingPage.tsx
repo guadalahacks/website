@@ -51,7 +51,7 @@ const LandingPage: React.FC = () => {
         {getLocalizedElement("landing_seeYouSoon", language)}
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '20px' }}>
         <div className="register-button-container">
           <Link href="/projects25" className="register-button">
             {getLocalizedString("landing_projects", language) + "2025"}
