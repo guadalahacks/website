@@ -57,11 +57,11 @@ const LandingPage: React.FC = () => {
         {getLocalizedElement("landing_signUpSoon", language)}
       </div> */}
 
-      <div className="register-button-container">
+      {/* <div className="register-button-container">
         <Link href="https://guadalahacks-2025.devpost.com/" className="register-button">
           {getLocalizedElement("landing_devpost", language)}
         </Link>
-      </div>
+      </div> */}
 
       {/* <div className="register-button-container">
         <Link href="https://registro.guadalahacks.com/" className="register-button">
