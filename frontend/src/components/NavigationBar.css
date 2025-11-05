@@ -100,7 +100,24 @@
     pointer-events: auto;  /* Now it can capture clicks */
 }
 
+/* Make navbar fixed at top */
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Spacer; set to the rendered navbar height so content doesn't jump */
+.nav-spacer {
+  height: 86px;
+}
+
 @media screen and (max-width: 768px) {
+  .nav-spacer {
+    height: 64px; /* adjust for mobile */
+  }
     .nav-logo-anchor {
         padding: 0 10px;
     }
