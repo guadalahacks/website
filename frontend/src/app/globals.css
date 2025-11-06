@@ -6,6 +6,23 @@ html{
   scroll-behavior: smooth;
 }
 
+/* add nav-height variables and site-wide anchor offset */
+:root {
+  --nav-height-desktop: 84px;
+  --nav-height-mobile: 64px;
+}
+
+/* offset browser anchor jumps by the fixed navbar height */
+html {
+  scroll-padding-top: var(--nav-height-desktop);
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: var(--nav-height-mobile);
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
