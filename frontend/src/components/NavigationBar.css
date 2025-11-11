@@ -43,7 +43,7 @@
     height: 100%;
     background-color: #333;
     border-left: 1px solid #444;
-    z-index: 1001; /* Ensure it's above the screen dim */
+    z-index: 1200;
     transition: right 0.3s ease-in-out;
     padding: 20px;
     color: white;
@@ -88,7 +88,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1000;
+    z-index: 1000; /* sits above page content when visible */
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;  /* This ensures it doesn't capture clicks when invisible */
@@ -96,11 +96,27 @@
 
 .screen-dim.visible {
     opacity: 1;
-    z-index: 1000;
     pointer-events: auto;  /* Now it can capture clicks */
 }
 
+/* Make navbar fixed at top */
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+}
+
+/* Spacer; set to the rendered navbar height so content doesn't jump */
+.nav-spacer {
+  height: var(--nav-height-desktop);
+}
+
 @media screen and (max-width: 768px) {
+  .nav-spacer {
+    height: var(--nav-height-mobile); /* use mobile variable */
+  }
     .nav-logo-anchor {
         padding: 0 10px;
     }

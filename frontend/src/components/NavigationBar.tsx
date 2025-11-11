@@ -31,7 +31,7 @@ const NavigationBar: React.FC = () => {
       <div className={`screen-dim ${isMenuOpen ? 'visible' : ''}`} onClick={() => setIsMenuOpen(false)}></div>
 
 
-      <nav className="bg-gray-800 text-white p-2">
+      <nav className="site-nav bg-gray-800 text-white p-2">
         <div className="container mx-auto flex justify-between items-center px-4 md:px-0">
           {/* Logo section */}
           <Link href="/" className='nav-logo-anchor'>
@@ -62,6 +62,8 @@ const NavigationBar: React.FC = () => {
           </div>
         </div>
       </nav>
+      {/* Spacer to prevent page content from sliding under the fixed nav.*/}
+      <div className="nav-spacer" aria-hidden="true"></div>
     </div>
   );
 };
